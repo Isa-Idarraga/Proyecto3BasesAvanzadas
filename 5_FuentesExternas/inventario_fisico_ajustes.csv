@@ -1,0 +1,42 @@
+FechaConteo,TiendaID,NombreTienda,ProductoID,CodigoSKU,NombreProducto,StockSistema,StockFisico,Diferencia,TipoAjuste,Motivo,Responsable
+2023-03-31,1,Tienda Bogotá Norte,1,SKU-001,Producto 1,145,140,-5,MERMA,Producto dañado en bodega,Carlos García
+2023-03-31,1,Tienda Bogotá Norte,5,SKU-005,Producto 5,89,92,3,AJUSTE POSITIVO,Error de conteo anterior,Carlos García
+2023-03-31,1,Tienda Bogotá Norte,12,SKU-012,Producto 12,200,195,-5,MERMA,Vencimiento de producto,Carlos García
+2023-03-31,2,Tienda Bogotá Sur,3,SKU-003,Producto 3,78,75,-3,MERMA,Rotura en transporte,Ana López
+2023-03-31,2,Tienda Bogotá Sur,18,SKU-018,Producto 18,110,115,5,AJUSTE POSITIVO,Devolución no registrada,Ana López
+2023-03-31,3,Tienda Medellín Centro,7,SKU-007,Producto 7,95,90,-5,MERMA,Robo hormiga,Pedro Martínez
+2023-03-31,3,Tienda Medellín Centro,22,SKU-022,Producto 22,60,63,3,AJUSTE POSITIVO,Error de sistema,Pedro Martínez
+2023-03-31,4,Tienda Cali Norte,9,SKU-009,Producto 9,130,128,-2,MERMA,Producto defectuoso,María Rodríguez
+2023-03-31,4,Tienda Cali Norte,31,SKU-031,Producto 31,88,91,3,AJUSTE POSITIVO,Transferencia no registrada,María Rodríguez
+2023-03-31,5,Tienda Barranquilla,14,SKU-014,Producto 14,75,72,-3,MERMA,Daño por humedad,Jorge Sánchez
+2023-06-30,1,Tienda Bogotá Norte,2,SKU-002,Producto 2,210,205,-5,MERMA,Producto vencido,Carlos García
+2023-06-30,1,Tienda Bogotá Norte,8,SKU-008,Producto 8,165,168,3,AJUSTE POSITIVO,Conteo corregido,Carlos García
+2023-06-30,2,Tienda Bogotá Sur,11,SKU-011,Producto 11,92,88,-4,MERMA,Rotura accidental,Ana López
+2023-06-30,2,Tienda Bogotá Sur,25,SKU-025,Producto 25,55,58,3,AJUSTE POSITIVO,Devolución registrada tarde,Ana López
+2023-06-30,3,Tienda Medellín Centro,4,SKU-004,Producto 4,118,115,-3,MERMA,Daño en almacén,Pedro Martínez
+2023-06-30,3,Tienda Medellín Centro,19,SKU-019,Producto 19,73,76,3,AJUSTE POSITIVO,Error de entrada,Pedro Martínez
+2023-06-30,4,Tienda Cali Norte,6,SKU-006,Producto 6,142,139,-3,MERMA,Producto defectuoso,María Rodríguez
+2023-06-30,5,Tienda Barranquilla,28,SKU-028,Producto 28,66,69,3,AJUSTE POSITIVO,Transferencia recibida,Jorge Sánchez
+2023-06-30,6,Tienda Cartagena,15,SKU-015,Producto 15,98,95,-3,MERMA,Robo,Laura Torres
+2023-06-30,7,Tienda Bucaramanga,33,SKU-033,Producto 33,84,87,3,AJUSTE POSITIVO,Error sistema,Diego Vargas
+2023-09-30,1,Tienda Bogotá Norte,10,SKU-010,Producto 10,175,170,-5,MERMA,Vencimiento,Carlos García
+2023-09-30,1,Tienda Bogotá Norte,17,SKU-017,Producto 17,122,125,3,AJUSTE POSITIVO,Conteo corregido,Carlos García
+2023-09-30,2,Tienda Bogotá Sur,20,SKU-020,Producto 20,88,85,-3,MERMA,Daño por transporte,Ana López
+2023-09-30,3,Tienda Medellín Centro,26,SKU-026,Producto 26,64,67,3,AJUSTE POSITIVO,Devolución tarde,Pedro Martínez
+2023-09-30,4,Tienda Cali Norte,13,SKU-013,Producto 13,109,106,-3,MERMA,Producto dañado,María Rodríguez
+2023-09-30,5,Tienda Barranquilla,35,SKU-035,Producto 35,77,80,3,AJUSTE POSITIVO,Error de conteo,Jorge Sánchez
+2023-09-30,6,Tienda Cartagena,16,SKU-016,Producto 16,93,90,-3,MERMA,Rotura,Laura Torres
+2023-09-30,7,Tienda Bucaramanga,29,SKU-029,Producto 29,81,84,3,AJUSTE POSITIVO,Transferencia no reg.,Diego Vargas
+2023-09-30,8,Tienda Pereira,21,SKU-021,Producto 21,115,112,-3,MERMA,Producto defectuoso,Sandra Gómez
+2023-09-30,9,Tienda Manizales,38,SKU-038,Producto 38,69,72,3,AJUSTE POSITIVO,Error sistema,Andrés Mora
+2023-12-31,1,Tienda Bogotá Norte,3,SKU-003,Producto 3,188,183,-5,MERMA,Vencimiento diciembre,Carlos García
+2023-12-31,1,Tienda Bogotá Norte,23,SKU-023,Producto 23,134,137,3,AJUSTE POSITIVO,Conteo final año,Carlos García
+2023-12-31,2,Tienda Bogotá Sur,30,SKU-030,Producto 30,96,93,-3,MERMA,Daño almacén,Ana López
+2023-12-31,3,Tienda Medellín Centro,41,SKU-041,Producto 41,71,74,3,AJUSTE POSITIVO,Devolución diciembre,Pedro Martínez
+2023-12-31,4,Tienda Cali Norte,36,SKU-036,Producto 36,103,100,-3,MERMA,Rotura fin de año,María Rodríguez
+2023-12-31,5,Tienda Barranquilla,44,SKU-044,Producto 44,82,85,3,AJUSTE POSITIVO,Error conteo diciembre,Jorge Sánchez
+2023-12-31,6,Tienda Cartagena,27,SKU-027,Producto 27,91,88,-3,MERMA,Producto dañado,Laura Torres
+2023-12-31,7,Tienda Bucaramanga,48,SKU-048,Producto 48,78,81,3,AJUSTE POSITIVO,Transferencia diciembre,Diego Vargas
+2023-12-31,8,Tienda Pereira,32,SKU-032,Producto 32,112,109,-3,MERMA,Vencimiento,Sandra Gómez
+2023-12-31,9,Tienda Manizales,50,SKU-050,Producto 50,67,70,3,AJUSTE POSITIVO,Conteo final,Andrés Mora
+2023-12-31,10,Tienda Cúcuta,45,SKU-045,Producto 45,88,85,-3,MERMA,Robo diciembre,Camila Ríos

@@ -1,0 +1,1201 @@
+TiendaID,NombreTienda,CategoriaID,NombreCategoria,Anio,Mes,ValorMeta,CanalVenta
+1,Tienda Bogotá Centro,1,Electrónica,2023,1,44982000,Presencial
+1,Tienda Bogotá Centro,1,Electrónica,2023,2,38845000,Online
+1,Tienda Bogotá Centro,1,Electrónica,2023,3,39949000,Presencial
+1,Tienda Bogotá Centro,1,Electrónica,2023,4,45244000,Presencial
+1,Tienda Bogotá Centro,1,Electrónica,2023,5,46869000,Presencial
+1,Tienda Bogotá Centro,1,Electrónica,2023,6,40690000,Online
+1,Tienda Bogotá Centro,1,Electrónica,2023,7,42118000,Presencial
+1,Tienda Bogotá Centro,1,Electrónica,2023,8,42210000,App
+1,Tienda Bogotá Centro,1,Electrónica,2023,9,42032000,Telefono
+1,Tienda Bogotá Centro,1,Electrónica,2023,10,48487000,Presencial
+1,Tienda Bogotá Centro,1,Electrónica,2023,11,50404000,Online
+1,Tienda Bogotá Centro,1,Electrónica,2023,12,59013000,Telefono
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,1,29705000,Online
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,2,28095000,Telefono
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,3,27398000,App
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,4,28813000,Telefono
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,5,32877000,Presencial
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,6,31932000,Presencial
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,7,33132000,App
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,8,27288000,Telefono
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,9,32423000,Telefono
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,10,32740000,Presencial
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,11,31418000,Online
+1,Tienda Bogotá Centro,2,Ropa y Moda,2023,12,41789000,Presencial
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,1,27901000,Presencial
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,2,22010000,App
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,3,25624000,Telefono
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,4,24975000,Telefono
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,5,26432000,Telefono
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,6,27252000,Presencial
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,7,26861000,Online
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,8,25217000,Online
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,9,24978000,App
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,10,26700000,Online
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,11,29898000,Presencial
+1,Tienda Bogotá Centro,3,Hogar y Cocina,2023,12,32832000,Presencial
+1,Tienda Bogotá Centro,4,Deportes,2023,1,20766000,App
+1,Tienda Bogotá Centro,4,Deportes,2023,2,16205000,Online
+1,Tienda Bogotá Centro,4,Deportes,2023,3,20053000,Telefono
+1,Tienda Bogotá Centro,4,Deportes,2023,4,18890000,App
+1,Tienda Bogotá Centro,4,Deportes,2023,5,20443000,App
+1,Tienda Bogotá Centro,4,Deportes,2023,6,18669000,Online
+1,Tienda Bogotá Centro,4,Deportes,2023,7,18997000,Telefono
+1,Tienda Bogotá Centro,4,Deportes,2023,8,19553000,App
+1,Tienda Bogotá Centro,4,Deportes,2023,9,21060000,App
+1,Tienda Bogotá Centro,4,Deportes,2023,10,20331000,Online
+1,Tienda Bogotá Centro,4,Deportes,2023,11,21813000,Presencial
+1,Tienda Bogotá Centro,4,Deportes,2023,12,26793000,Presencial
+1,Tienda Bogotá Centro,5,Belleza,2023,1,15584000,Online
+1,Tienda Bogotá Centro,5,Belleza,2023,2,14680000,App
+1,Tienda Bogotá Centro,5,Belleza,2023,3,15917000,App
+1,Tienda Bogotá Centro,5,Belleza,2023,4,16187000,App
+1,Tienda Bogotá Centro,5,Belleza,2023,5,17406000,Presencial
+1,Tienda Bogotá Centro,5,Belleza,2023,6,16976000,Presencial
+1,Tienda Bogotá Centro,5,Belleza,2023,7,16980000,Telefono
+1,Tienda Bogotá Centro,5,Belleza,2023,8,16349000,Telefono
+1,Tienda Bogotá Centro,5,Belleza,2023,9,15474000,App
+1,Tienda Bogotá Centro,5,Belleza,2023,10,16377000,Presencial
+1,Tienda Bogotá Centro,5,Belleza,2023,11,19468000,Telefono
+1,Tienda Bogotá Centro,5,Belleza,2023,12,23070000,Online
+1,Tienda Bogotá Centro,6,Juguetes,2023,1,14318000,Presencial
+1,Tienda Bogotá Centro,6,Juguetes,2023,2,12876000,Telefono
+1,Tienda Bogotá Centro,6,Juguetes,2023,3,14328000,Online
+1,Tienda Bogotá Centro,6,Juguetes,2023,4,13506000,Online
+1,Tienda Bogotá Centro,6,Juguetes,2023,5,15110000,Presencial
+1,Tienda Bogotá Centro,6,Juguetes,2023,6,14526000,App
+1,Tienda Bogotá Centro,6,Juguetes,2023,7,13201000,Telefono
+1,Tienda Bogotá Centro,6,Juguetes,2023,8,14408000,Telefono
+1,Tienda Bogotá Centro,6,Juguetes,2023,9,13704000,Online
+1,Tienda Bogotá Centro,6,Juguetes,2023,10,15923000,Presencial
+1,Tienda Bogotá Centro,6,Juguetes,2023,11,14687000,App
+1,Tienda Bogotá Centro,6,Juguetes,2023,12,19530000,Online
+1,Tienda Bogotá Centro,7,Alimentos,2023,1,33107000,App
+1,Tienda Bogotá Centro,7,Alimentos,2023,2,32059000,Online
+1,Tienda Bogotá Centro,7,Alimentos,2023,3,32183000,App
+1,Tienda Bogotá Centro,7,Alimentos,2023,4,37815000,Online
+1,Tienda Bogotá Centro,7,Alimentos,2023,5,38219000,App
+1,Tienda Bogotá Centro,7,Alimentos,2023,6,37989000,Telefono
+1,Tienda Bogotá Centro,7,Alimentos,2023,7,34851000,App
+1,Tienda Bogotá Centro,7,Alimentos,2023,8,31412000,Online
+1,Tienda Bogotá Centro,7,Alimentos,2023,9,32745000,Presencial
+1,Tienda Bogotá Centro,7,Alimentos,2023,10,37482000,Online
+1,Tienda Bogotá Centro,7,Alimentos,2023,11,39268000,Presencial
+1,Tienda Bogotá Centro,7,Alimentos,2023,12,42619000,Presencial
+1,Tienda Bogotá Centro,8,Libros,2023,1,10523000,Presencial
+1,Tienda Bogotá Centro,8,Libros,2023,2,9888000,Presencial
+1,Tienda Bogotá Centro,8,Libros,2023,3,10474000,Telefono
+1,Tienda Bogotá Centro,8,Libros,2023,4,11297000,Online
+1,Tienda Bogotá Centro,8,Libros,2023,5,11623000,App
+1,Tienda Bogotá Centro,8,Libros,2023,6,10548000,App
+1,Tienda Bogotá Centro,8,Libros,2023,7,11541000,Online
+1,Tienda Bogotá Centro,8,Libros,2023,8,9772000,App
+1,Tienda Bogotá Centro,8,Libros,2023,9,10744000,App
+1,Tienda Bogotá Centro,8,Libros,2023,10,11489000,Presencial
+1,Tienda Bogotá Centro,8,Libros,2023,11,12436000,Presencial
+1,Tienda Bogotá Centro,8,Libros,2023,12,13295000,Telefono
+1,Tienda Bogotá Centro,9,Mascotas,2023,1,14988000,Presencial
+1,Tienda Bogotá Centro,9,Mascotas,2023,2,11666000,Online
+1,Tienda Bogotá Centro,9,Mascotas,2023,3,13664000,Online
+1,Tienda Bogotá Centro,9,Mascotas,2023,4,14121000,Telefono
+1,Tienda Bogotá Centro,9,Mascotas,2023,5,14925000,Presencial
+1,Tienda Bogotá Centro,9,Mascotas,2023,6,14170000,Presencial
+1,Tienda Bogotá Centro,9,Mascotas,2023,7,13272000,Presencial
+1,Tienda Bogotá Centro,9,Mascotas,2023,8,14604000,Online
+1,Tienda Bogotá Centro,9,Mascotas,2023,9,13537000,App
+1,Tienda Bogotá Centro,9,Mascotas,2023,10,14970000,App
+1,Tienda Bogotá Centro,9,Mascotas,2023,11,16743000,Online
+1,Tienda Bogotá Centro,9,Mascotas,2023,12,18230000,App
+1,Tienda Bogotá Centro,10,Ferretería,2023,1,19056000,App
+1,Tienda Bogotá Centro,10,Ferretería,2023,2,16252000,App
+1,Tienda Bogotá Centro,10,Ferretería,2023,3,17771000,Telefono
+1,Tienda Bogotá Centro,10,Ferretería,2023,4,18906000,Presencial
+1,Tienda Bogotá Centro,10,Ferretería,2023,5,21053000,Presencial
+1,Tienda Bogotá Centro,10,Ferretería,2023,6,20586000,Presencial
+1,Tienda Bogotá Centro,10,Ferretería,2023,7,18375000,App
+1,Tienda Bogotá Centro,10,Ferretería,2023,8,18819000,Online
+1,Tienda Bogotá Centro,10,Ferretería,2023,9,18396000,Presencial
+1,Tienda Bogotá Centro,10,Ferretería,2023,10,21959000,Presencial
+1,Tienda Bogotá Centro,10,Ferretería,2023,11,22111000,Online
+1,Tienda Bogotá Centro,10,Ferretería,2023,12,25344000,Online
+2,Tienda Bogotá Norte,1,Electrónica,2023,1,42530000,Presencial
+2,Tienda Bogotá Norte,1,Electrónica,2023,2,36382000,App
+2,Tienda Bogotá Norte,1,Electrónica,2023,3,40905000,Telefono
+2,Tienda Bogotá Norte,1,Electrónica,2023,4,44921000,Online
+2,Tienda Bogotá Norte,1,Electrónica,2023,5,45298000,Telefono
+2,Tienda Bogotá Norte,1,Electrónica,2023,6,40244000,App
+2,Tienda Bogotá Norte,1,Electrónica,2023,7,39520000,Telefono
+2,Tienda Bogotá Norte,1,Electrónica,2023,8,39627000,Presencial
+2,Tienda Bogotá Norte,1,Electrónica,2023,9,38703000,Presencial
+2,Tienda Bogotá Norte,1,Electrónica,2023,10,41089000,Online
+2,Tienda Bogotá Norte,1,Electrónica,2023,11,46243000,Online
+2,Tienda Bogotá Norte,1,Electrónica,2023,12,58385000,Presencial
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,1,31184000,Telefono
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,2,24130000,App
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,3,29421000,Telefono
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,4,29925000,Presencial
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,5,31699000,Telefono
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,6,31431000,Presencial
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,7,31465000,Online
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,8,26877000,Presencial
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,9,30540000,Online
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,10,29746000,Online
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,11,33466000,Online
+2,Tienda Bogotá Norte,2,Ropa y Moda,2023,12,39367000,Telefono
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,1,25222000,Telefono
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,2,22809000,Presencial
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,3,22378000,App
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,4,26528000,Presencial
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,5,24358000,Online
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,6,25753000,Telefono
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,7,23835000,App
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,8,24138000,App
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,9,25446000,Presencial
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,10,24662000,Online
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,11,27922000,Telefono
+2,Tienda Bogotá Norte,3,Hogar y Cocina,2023,12,33192000,Online
+2,Tienda Bogotá Norte,4,Deportes,2023,1,18688000,Presencial
+2,Tienda Bogotá Norte,4,Deportes,2023,2,15572000,Presencial
+2,Tienda Bogotá Norte,4,Deportes,2023,3,19101000,Online
+2,Tienda Bogotá Norte,4,Deportes,2023,4,19451000,Presencial
+2,Tienda Bogotá Norte,4,Deportes,2023,5,19380000,App
+2,Tienda Bogotá Norte,4,Deportes,2023,6,20333000,Online
+2,Tienda Bogotá Norte,4,Deportes,2023,7,20188000,Online
+2,Tienda Bogotá Norte,4,Deportes,2023,8,19002000,Online
+2,Tienda Bogotá Norte,4,Deportes,2023,9,20053000,Presencial
+2,Tienda Bogotá Norte,4,Deportes,2023,10,18827000,Telefono
+2,Tienda Bogotá Norte,4,Deportes,2023,11,21729000,App
+2,Tienda Bogotá Norte,4,Deportes,2023,12,25758000,Online
+2,Tienda Bogotá Norte,5,Belleza,2023,1,15162000,Presencial
+2,Tienda Bogotá Norte,5,Belleza,2023,2,13136000,Presencial
+2,Tienda Bogotá Norte,5,Belleza,2023,3,15821000,Online
+2,Tienda Bogotá Norte,5,Belleza,2023,4,14993000,App
+2,Tienda Bogotá Norte,5,Belleza,2023,5,16140000,Online
+2,Tienda Bogotá Norte,5,Belleza,2023,6,15052000,Online
+2,Tienda Bogotá Norte,5,Belleza,2023,7,15494000,Telefono
+2,Tienda Bogotá Norte,5,Belleza,2023,8,15835000,Telefono
+2,Tienda Bogotá Norte,5,Belleza,2023,9,15375000,App
+2,Tienda Bogotá Norte,5,Belleza,2023,10,17013000,Telefono
+2,Tienda Bogotá Norte,5,Belleza,2023,11,18543000,Presencial
+2,Tienda Bogotá Norte,5,Belleza,2023,12,21710000,Telefono
+2,Tienda Bogotá Norte,6,Juguetes,2023,1,12948000,Telefono
+2,Tienda Bogotá Norte,6,Juguetes,2023,2,10745000,App
+2,Tienda Bogotá Norte,6,Juguetes,2023,3,12647000,Telefono
+2,Tienda Bogotá Norte,6,Juguetes,2023,4,13511000,Presencial
+2,Tienda Bogotá Norte,6,Juguetes,2023,5,14069000,Online
+2,Tienda Bogotá Norte,6,Juguetes,2023,6,13114000,App
+2,Tienda Bogotá Norte,6,Juguetes,2023,7,12562000,Online
+2,Tienda Bogotá Norte,6,Juguetes,2023,8,12686000,Presencial
+2,Tienda Bogotá Norte,6,Juguetes,2023,9,14630000,Telefono
+2,Tienda Bogotá Norte,6,Juguetes,2023,10,14615000,Presencial
+2,Tienda Bogotá Norte,6,Juguetes,2023,11,15543000,Telefono
+2,Tienda Bogotá Norte,6,Juguetes,2023,12,17765000,App
+2,Tienda Bogotá Norte,7,Alimentos,2023,1,32666000,Telefono
+2,Tienda Bogotá Norte,7,Alimentos,2023,2,28809000,Online
+2,Tienda Bogotá Norte,7,Alimentos,2023,3,31514000,App
+2,Tienda Bogotá Norte,7,Alimentos,2023,4,34553000,Online
+2,Tienda Bogotá Norte,7,Alimentos,2023,5,35932000,Telefono
+2,Tienda Bogotá Norte,7,Alimentos,2023,6,33095000,Presencial
+2,Tienda Bogotá Norte,7,Alimentos,2023,7,32546000,Online
+2,Tienda Bogotá Norte,7,Alimentos,2023,8,31562000,Telefono
+2,Tienda Bogotá Norte,7,Alimentos,2023,9,33412000,App
+2,Tienda Bogotá Norte,7,Alimentos,2023,10,36271000,App
+2,Tienda Bogotá Norte,7,Alimentos,2023,11,38697000,Online
+2,Tienda Bogotá Norte,7,Alimentos,2023,12,44790000,Telefono
+2,Tienda Bogotá Norte,8,Libros,2023,1,10526000,Telefono
+2,Tienda Bogotá Norte,8,Libros,2023,2,8344000,Online
+2,Tienda Bogotá Norte,8,Libros,2023,3,10251000,Online
+2,Tienda Bogotá Norte,8,Libros,2023,4,11015000,Online
+2,Tienda Bogotá Norte,8,Libros,2023,5,10186000,Online
+2,Tienda Bogotá Norte,8,Libros,2023,6,11313000,Presencial
+2,Tienda Bogotá Norte,8,Libros,2023,7,10425000,Online
+2,Tienda Bogotá Norte,8,Libros,2023,8,10323000,App
+2,Tienda Bogotá Norte,8,Libros,2023,9,10491000,Online
+2,Tienda Bogotá Norte,8,Libros,2023,10,10403000,Presencial
+2,Tienda Bogotá Norte,8,Libros,2023,11,12276000,Presencial
+2,Tienda Bogotá Norte,8,Libros,2023,12,14258000,Online
+2,Tienda Bogotá Norte,9,Mascotas,2023,1,12942000,App
+2,Tienda Bogotá Norte,9,Mascotas,2023,2,10768000,Online
+2,Tienda Bogotá Norte,9,Mascotas,2023,3,13834000,Presencial
+2,Tienda Bogotá Norte,9,Mascotas,2023,4,13555000,App
+2,Tienda Bogotá Norte,9,Mascotas,2023,5,14717000,Telefono
+2,Tienda Bogotá Norte,9,Mascotas,2023,6,14633000,App
+2,Tienda Bogotá Norte,9,Mascotas,2023,7,13896000,App
+2,Tienda Bogotá Norte,9,Mascotas,2023,8,13653000,App
+2,Tienda Bogotá Norte,9,Mascotas,2023,9,14518000,App
+2,Tienda Bogotá Norte,9,Mascotas,2023,10,14218000,Online
+2,Tienda Bogotá Norte,9,Mascotas,2023,11,15831000,Telefono
+2,Tienda Bogotá Norte,9,Mascotas,2023,12,18500000,App
+2,Tienda Bogotá Norte,10,Ferretería,2023,1,19283000,Telefono
+2,Tienda Bogotá Norte,10,Ferretería,2023,2,15910000,Telefono
+2,Tienda Bogotá Norte,10,Ferretería,2023,3,17192000,Telefono
+2,Tienda Bogotá Norte,10,Ferretería,2023,4,18355000,Presencial
+2,Tienda Bogotá Norte,10,Ferretería,2023,5,18697000,Online
+2,Tienda Bogotá Norte,10,Ferretería,2023,6,18546000,Online
+2,Tienda Bogotá Norte,10,Ferretería,2023,7,19524000,Presencial
+2,Tienda Bogotá Norte,10,Ferretería,2023,8,17710000,Telefono
+2,Tienda Bogotá Norte,10,Ferretería,2023,9,19029000,App
+2,Tienda Bogotá Norte,10,Ferretería,2023,10,18455000,App
+2,Tienda Bogotá Norte,10,Ferretería,2023,11,20422000,Presencial
+2,Tienda Bogotá Norte,10,Ferretería,2023,12,25972000,App
+3,Tienda Medellín El Poblado,1,Electrónica,2023,1,43041000,Telefono
+3,Tienda Medellín El Poblado,1,Electrónica,2023,2,35537000,App
+3,Tienda Medellín El Poblado,1,Electrónica,2023,3,43361000,App
+3,Tienda Medellín El Poblado,1,Electrónica,2023,4,43464000,Online
+3,Tienda Medellín El Poblado,1,Electrónica,2023,5,45275000,Telefono
+3,Tienda Medellín El Poblado,1,Electrónica,2023,6,42756000,Presencial
+3,Tienda Medellín El Poblado,1,Electrónica,2023,7,42432000,App
+3,Tienda Medellín El Poblado,1,Electrónica,2023,8,42512000,App
+3,Tienda Medellín El Poblado,1,Electrónica,2023,9,46100000,Presencial
+3,Tienda Medellín El Poblado,1,Electrónica,2023,10,48313000,Presencial
+3,Tienda Medellín El Poblado,1,Electrónica,2023,11,44357000,App
+3,Tienda Medellín El Poblado,1,Electrónica,2023,12,52887000,App
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,1,28700000,Telefono
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,2,25207000,Online
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,3,28520000,Telefono
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,4,31504000,App
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,5,30625000,App
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,6,29041000,Presencial
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,7,30096000,Presencial
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,8,31026000,Telefono
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,9,28906000,Presencial
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,10,33181000,Presencial
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,11,34617000,Online
+3,Tienda Medellín El Poblado,2,Ropa y Moda,2023,12,37421000,Presencial
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,1,26423000,Online
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,2,20714000,Presencial
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,3,24876000,Online
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,4,25775000,Telefono
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,5,28378000,Online
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,6,26359000,Presencial
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,7,27072000,Online
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,8,26455000,Presencial
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,9,26246000,Telefono
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,10,27546000,App
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,11,28041000,Online
+3,Tienda Medellín El Poblado,3,Hogar y Cocina,2023,12,31410000,Online
+3,Tienda Medellín El Poblado,4,Deportes,2023,1,18202000,Telefono
+3,Tienda Medellín El Poblado,4,Deportes,2023,2,17450000,Presencial
+3,Tienda Medellín El Poblado,4,Deportes,2023,3,19343000,Presencial
+3,Tienda Medellín El Poblado,4,Deportes,2023,4,18965000,App
+3,Tienda Medellín El Poblado,4,Deportes,2023,5,20940000,Presencial
+3,Tienda Medellín El Poblado,4,Deportes,2023,6,19459000,Telefono
+3,Tienda Medellín El Poblado,4,Deportes,2023,7,17924000,App
+3,Tienda Medellín El Poblado,4,Deportes,2023,8,19420000,Presencial
+3,Tienda Medellín El Poblado,4,Deportes,2023,9,19233000,Telefono
+3,Tienda Medellín El Poblado,4,Deportes,2023,10,20855000,App
+3,Tienda Medellín El Poblado,4,Deportes,2023,11,22093000,App
+3,Tienda Medellín El Poblado,4,Deportes,2023,12,23962000,Telefono
+3,Tienda Medellín El Poblado,5,Belleza,2023,1,16500000,App
+3,Tienda Medellín El Poblado,5,Belleza,2023,2,13693000,Telefono
+3,Tienda Medellín El Poblado,5,Belleza,2023,3,14952000,Online
+3,Tienda Medellín El Poblado,5,Belleza,2023,4,17057000,Presencial
+3,Tienda Medellín El Poblado,5,Belleza,2023,5,16408000,App
+3,Tienda Medellín El Poblado,5,Belleza,2023,6,15536000,App
+3,Tienda Medellín El Poblado,5,Belleza,2023,7,16381000,App
+3,Tienda Medellín El Poblado,5,Belleza,2023,8,14987000,App
+3,Tienda Medellín El Poblado,5,Belleza,2023,9,17110000,Online
+3,Tienda Medellín El Poblado,5,Belleza,2023,10,16976000,Telefono
+3,Tienda Medellín El Poblado,5,Belleza,2023,11,18669000,Telefono
+3,Tienda Medellín El Poblado,5,Belleza,2023,12,20318000,Telefono
+3,Tienda Medellín El Poblado,6,Juguetes,2023,1,14165000,Online
+3,Tienda Medellín El Poblado,6,Juguetes,2023,2,11143000,App
+3,Tienda Medellín El Poblado,6,Juguetes,2023,3,13314000,Online
+3,Tienda Medellín El Poblado,6,Juguetes,2023,4,14468000,App
+3,Tienda Medellín El Poblado,6,Juguetes,2023,5,14620000,Presencial
+3,Tienda Medellín El Poblado,6,Juguetes,2023,6,13126000,Online
+3,Tienda Medellín El Poblado,6,Juguetes,2023,7,13825000,Online
+3,Tienda Medellín El Poblado,6,Juguetes,2023,8,12924000,Telefono
+3,Tienda Medellín El Poblado,6,Juguetes,2023,9,13980000,Telefono
+3,Tienda Medellín El Poblado,6,Juguetes,2023,10,14566000,Telefono
+3,Tienda Medellín El Poblado,6,Juguetes,2023,11,15078000,App
+3,Tienda Medellín El Poblado,6,Juguetes,2023,12,17583000,Telefono
+3,Tienda Medellín El Poblado,7,Alimentos,2023,1,33070000,Online
+3,Tienda Medellín El Poblado,7,Alimentos,2023,2,28509000,Online
+3,Tienda Medellín El Poblado,7,Alimentos,2023,3,31212000,App
+3,Tienda Medellín El Poblado,7,Alimentos,2023,4,33324000,Telefono
+3,Tienda Medellín El Poblado,7,Alimentos,2023,5,39078000,Online
+3,Tienda Medellín El Poblado,7,Alimentos,2023,6,33433000,Telefono
+3,Tienda Medellín El Poblado,7,Alimentos,2023,7,32787000,Presencial
+3,Tienda Medellín El Poblado,7,Alimentos,2023,8,33925000,Online
+3,Tienda Medellín El Poblado,7,Alimentos,2023,9,33312000,Presencial
+3,Tienda Medellín El Poblado,7,Alimentos,2023,10,36598000,Online
+3,Tienda Medellín El Poblado,7,Alimentos,2023,11,38855000,App
+3,Tienda Medellín El Poblado,7,Alimentos,2023,12,42071000,Presencial
+3,Tienda Medellín El Poblado,8,Libros,2023,1,10928000,App
+3,Tienda Medellín El Poblado,8,Libros,2023,2,9149000,Telefono
+3,Tienda Medellín El Poblado,8,Libros,2023,3,9742000,Presencial
+3,Tienda Medellín El Poblado,8,Libros,2023,4,10372000,App
+3,Tienda Medellín El Poblado,8,Libros,2023,5,10640000,Presencial
+3,Tienda Medellín El Poblado,8,Libros,2023,6,10628000,Presencial
+3,Tienda Medellín El Poblado,8,Libros,2023,7,10933000,Presencial
+3,Tienda Medellín El Poblado,8,Libros,2023,8,9688000,Telefono
+3,Tienda Medellín El Poblado,8,Libros,2023,9,10083000,Online
+3,Tienda Medellín El Poblado,8,Libros,2023,10,10648000,App
+3,Tienda Medellín El Poblado,8,Libros,2023,11,12082000,Online
+3,Tienda Medellín El Poblado,8,Libros,2023,12,14659000,App
+3,Tienda Medellín El Poblado,9,Mascotas,2023,1,13929000,App
+3,Tienda Medellín El Poblado,9,Mascotas,2023,2,11547000,App
+3,Tienda Medellín El Poblado,9,Mascotas,2023,3,12923000,Presencial
+3,Tienda Medellín El Poblado,9,Mascotas,2023,4,14286000,Presencial
+3,Tienda Medellín El Poblado,9,Mascotas,2023,5,15798000,Online
+3,Tienda Medellín El Poblado,9,Mascotas,2023,6,14322000,Telefono
+3,Tienda Medellín El Poblado,9,Mascotas,2023,7,14400000,Online
+3,Tienda Medellín El Poblado,9,Mascotas,2023,8,12783000,Presencial
+3,Tienda Medellín El Poblado,9,Mascotas,2023,9,13268000,App
+3,Tienda Medellín El Poblado,9,Mascotas,2023,10,14625000,App
+3,Tienda Medellín El Poblado,9,Mascotas,2023,11,14928000,Online
+3,Tienda Medellín El Poblado,9,Mascotas,2023,12,17633000,Telefono
+3,Tienda Medellín El Poblado,10,Ferretería,2023,1,20071000,App
+3,Tienda Medellín El Poblado,10,Ferretería,2023,2,15390000,Online
+3,Tienda Medellín El Poblado,10,Ferretería,2023,3,19721000,Online
+3,Tienda Medellín El Poblado,10,Ferretería,2023,4,19207000,Online
+3,Tienda Medellín El Poblado,10,Ferretería,2023,5,20894000,Telefono
+3,Tienda Medellín El Poblado,10,Ferretería,2023,6,20456000,Presencial
+3,Tienda Medellín El Poblado,10,Ferretería,2023,7,18070000,Telefono
+3,Tienda Medellín El Poblado,10,Ferretería,2023,8,18749000,Telefono
+3,Tienda Medellín El Poblado,10,Ferretería,2023,9,19251000,App
+3,Tienda Medellín El Poblado,10,Ferretería,2023,10,21028000,App
+3,Tienda Medellín El Poblado,10,Ferretería,2023,11,22899000,App
+3,Tienda Medellín El Poblado,10,Ferretería,2023,12,25020000,Presencial
+4,Tienda Medellín Laureles,1,Electrónica,2023,1,42492000,Telefono
+4,Tienda Medellín Laureles,1,Electrónica,2023,2,34564000,Presencial
+4,Tienda Medellín Laureles,1,Electrónica,2023,3,35515000,Presencial
+4,Tienda Medellín Laureles,1,Electrónica,2023,4,43197000,Telefono
+4,Tienda Medellín Laureles,1,Electrónica,2023,5,42512000,Online
+4,Tienda Medellín Laureles,1,Electrónica,2023,6,39811000,App
+4,Tienda Medellín Laureles,1,Electrónica,2023,7,42663000,Online
+4,Tienda Medellín Laureles,1,Electrónica,2023,8,41021000,App
+4,Tienda Medellín Laureles,1,Electrónica,2023,9,40863000,App
+4,Tienda Medellín Laureles,1,Electrónica,2023,10,45152000,App
+4,Tienda Medellín Laureles,1,Electrónica,2023,11,42930000,Telefono
+4,Tienda Medellín Laureles,1,Electrónica,2023,12,50511000,Presencial
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,1,29603000,Telefono
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,2,23464000,App
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,3,25699000,App
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,4,29405000,Presencial
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,5,29188000,Telefono
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,6,26891000,Presencial
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,7,30106000,App
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,8,28153000,Presencial
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,9,28706000,App
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,10,28992000,Online
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,11,30891000,App
+4,Tienda Medellín Laureles,2,Ropa y Moda,2023,12,37130000,Presencial
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,1,22862000,Online
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,2,21796000,App
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,3,24189000,App
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,4,22546000,Online
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,5,26046000,Telefono
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,6,24195000,App
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,7,22438000,Presencial
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,8,22659000,Presencial
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,9,24567000,Online
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,10,25193000,Telefono
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,11,26437000,Telefono
+4,Tienda Medellín Laureles,3,Hogar y Cocina,2023,12,30778000,App
+4,Tienda Medellín Laureles,4,Deportes,2023,1,19383000,Online
+4,Tienda Medellín Laureles,4,Deportes,2023,2,15194000,Online
+4,Tienda Medellín Laureles,4,Deportes,2023,3,16781000,Online
+4,Tienda Medellín Laureles,4,Deportes,2023,4,19048000,Telefono
+4,Tienda Medellín Laureles,4,Deportes,2023,5,19725000,App
+4,Tienda Medellín Laureles,4,Deportes,2023,6,17539000,Telefono
+4,Tienda Medellín Laureles,4,Deportes,2023,7,18923000,Telefono
+4,Tienda Medellín Laureles,4,Deportes,2023,8,17718000,App
+4,Tienda Medellín Laureles,4,Deportes,2023,9,19052000,App
+4,Tienda Medellín Laureles,4,Deportes,2023,10,19017000,Telefono
+4,Tienda Medellín Laureles,4,Deportes,2023,11,19269000,App
+4,Tienda Medellín Laureles,4,Deportes,2023,12,23233000,Telefono
+4,Tienda Medellín Laureles,5,Belleza,2023,1,15887000,Online
+4,Tienda Medellín Laureles,5,Belleza,2023,2,12896000,Online
+4,Tienda Medellín Laureles,5,Belleza,2023,3,15062000,App
+4,Tienda Medellín Laureles,5,Belleza,2023,4,13905000,App
+4,Tienda Medellín Laureles,5,Belleza,2023,5,16267000,App
+4,Tienda Medellín Laureles,5,Belleza,2023,6,14727000,Online
+4,Tienda Medellín Laureles,5,Belleza,2023,7,14989000,Presencial
+4,Tienda Medellín Laureles,5,Belleza,2023,8,13398000,Telefono
+4,Tienda Medellín Laureles,5,Belleza,2023,9,15887000,App
+4,Tienda Medellín Laureles,5,Belleza,2023,10,14741000,App
+4,Tienda Medellín Laureles,5,Belleza,2023,11,15221000,Online
+4,Tienda Medellín Laureles,5,Belleza,2023,12,19219000,Online
+4,Tienda Medellín Laureles,6,Juguetes,2023,1,12116000,Telefono
+4,Tienda Medellín Laureles,6,Juguetes,2023,2,10765000,App
+4,Tienda Medellín Laureles,6,Juguetes,2023,3,12646000,Telefono
+4,Tienda Medellín Laureles,6,Juguetes,2023,4,13733000,App
+4,Tienda Medellín Laureles,6,Juguetes,2023,5,14642000,App
+4,Tienda Medellín Laureles,6,Juguetes,2023,6,13775000,Presencial
+4,Tienda Medellín Laureles,6,Juguetes,2023,7,13244000,Online
+4,Tienda Medellín Laureles,6,Juguetes,2023,8,12609000,Telefono
+4,Tienda Medellín Laureles,6,Juguetes,2023,9,14035000,Presencial
+4,Tienda Medellín Laureles,6,Juguetes,2023,10,13506000,Presencial
+4,Tienda Medellín Laureles,6,Juguetes,2023,11,14896000,Presencial
+4,Tienda Medellín Laureles,6,Juguetes,2023,12,16748000,Telefono
+4,Tienda Medellín Laureles,7,Alimentos,2023,1,34066000,Presencial
+4,Tienda Medellín Laureles,7,Alimentos,2023,2,26436000,Presencial
+4,Tienda Medellín Laureles,7,Alimentos,2023,3,29395000,Telefono
+4,Tienda Medellín Laureles,7,Alimentos,2023,4,31645000,Online
+4,Tienda Medellín Laureles,7,Alimentos,2023,5,33768000,Online
+4,Tienda Medellín Laureles,7,Alimentos,2023,6,30310000,Presencial
+4,Tienda Medellín Laureles,7,Alimentos,2023,7,32561000,App
+4,Tienda Medellín Laureles,7,Alimentos,2023,8,30982000,Online
+4,Tienda Medellín Laureles,7,Alimentos,2023,9,31988000,Online
+4,Tienda Medellín Laureles,7,Alimentos,2023,10,32160000,Telefono
+4,Tienda Medellín Laureles,7,Alimentos,2023,11,34972000,Presencial
+4,Tienda Medellín Laureles,7,Alimentos,2023,12,44255000,App
+4,Tienda Medellín Laureles,8,Libros,2023,1,10642000,Online
+4,Tienda Medellín Laureles,8,Libros,2023,2,7920000,Telefono
+4,Tienda Medellín Laureles,8,Libros,2023,3,10241000,Telefono
+4,Tienda Medellín Laureles,8,Libros,2023,4,10222000,App
+4,Tienda Medellín Laureles,8,Libros,2023,5,10820000,App
+4,Tienda Medellín Laureles,8,Libros,2023,6,10552000,Online
+4,Tienda Medellín Laureles,8,Libros,2023,7,10799000,App
+4,Tienda Medellín Laureles,8,Libros,2023,8,8902000,App
+4,Tienda Medellín Laureles,8,Libros,2023,9,10115000,Telefono
+4,Tienda Medellín Laureles,8,Libros,2023,10,11328000,Telefono
+4,Tienda Medellín Laureles,8,Libros,2023,11,10159000,App
+4,Tienda Medellín Laureles,8,Libros,2023,12,12531000,Presencial
+4,Tienda Medellín Laureles,9,Mascotas,2023,1,13854000,App
+4,Tienda Medellín Laureles,9,Mascotas,2023,2,11638000,Telefono
+4,Tienda Medellín Laureles,9,Mascotas,2023,3,12895000,Online
+4,Tienda Medellín Laureles,9,Mascotas,2023,4,13223000,Telefono
+4,Tienda Medellín Laureles,9,Mascotas,2023,5,13036000,Online
+4,Tienda Medellín Laureles,9,Mascotas,2023,6,13251000,Online
+4,Tienda Medellín Laureles,9,Mascotas,2023,7,13267000,Presencial
+4,Tienda Medellín Laureles,9,Mascotas,2023,8,11972000,App
+4,Tienda Medellín Laureles,9,Mascotas,2023,9,12029000,Telefono
+4,Tienda Medellín Laureles,9,Mascotas,2023,10,14157000,Presencial
+4,Tienda Medellín Laureles,9,Mascotas,2023,11,15237000,Telefono
+4,Tienda Medellín Laureles,9,Mascotas,2023,12,17569000,Online
+4,Tienda Medellín Laureles,10,Ferretería,2023,1,17138000,Telefono
+4,Tienda Medellín Laureles,10,Ferretería,2023,2,15376000,Telefono
+4,Tienda Medellín Laureles,10,Ferretería,2023,3,18004000,Telefono
+4,Tienda Medellín Laureles,10,Ferretería,2023,4,19192000,App
+4,Tienda Medellín Laureles,10,Ferretería,2023,5,20313000,Telefono
+4,Tienda Medellín Laureles,10,Ferretería,2023,6,18710000,Telefono
+4,Tienda Medellín Laureles,10,Ferretería,2023,7,18876000,App
+4,Tienda Medellín Laureles,10,Ferretería,2023,8,18366000,Online
+4,Tienda Medellín Laureles,10,Ferretería,2023,9,18732000,Online
+4,Tienda Medellín Laureles,10,Ferretería,2023,10,19989000,App
+4,Tienda Medellín Laureles,10,Ferretería,2023,11,21280000,Telefono
+4,Tienda Medellín Laureles,10,Ferretería,2023,12,21866000,App
+5,Tienda Cali Chipichape,1,Electrónica,2023,1,37627000,Presencial
+5,Tienda Cali Chipichape,1,Electrónica,2023,2,34429000,Telefono
+5,Tienda Cali Chipichape,1,Electrónica,2023,3,39284000,Telefono
+5,Tienda Cali Chipichape,1,Electrónica,2023,4,38243000,Online
+5,Tienda Cali Chipichape,1,Electrónica,2023,5,42644000,Telefono
+5,Tienda Cali Chipichape,1,Electrónica,2023,6,43511000,Online
+5,Tienda Cali Chipichape,1,Electrónica,2023,7,41764000,App
+5,Tienda Cali Chipichape,1,Electrónica,2023,8,41299000,Telefono
+5,Tienda Cali Chipichape,1,Electrónica,2023,9,41774000,Presencial
+5,Tienda Cali Chipichape,1,Electrónica,2023,10,40371000,Presencial
+5,Tienda Cali Chipichape,1,Electrónica,2023,11,43475000,App
+5,Tienda Cali Chipichape,1,Electrónica,2023,12,49782000,Online
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,1,30330000,Online
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,2,23843000,Telefono
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,3,27872000,App
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,4,28959000,Online
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,5,31837000,Presencial
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,6,30085000,App
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,7,30566000,Telefono
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,8,25103000,Telefono
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,9,27268000,App
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,10,32150000,Telefono
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,11,29402000,Telefono
+5,Tienda Cali Chipichape,2,Ropa y Moda,2023,12,37392000,Telefono
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,1,22759000,Telefono
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,2,19775000,Presencial
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,3,24927000,App
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,4,22881000,Online
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,5,26287000,Presencial
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,6,22720000,Telefono
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,7,23476000,Online
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,8,24324000,Online
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,9,22790000,Online
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,10,26059000,Online
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,11,26189000,Online
+5,Tienda Cali Chipichape,3,Hogar y Cocina,2023,12,33294000,Presencial
+5,Tienda Cali Chipichape,4,Deportes,2023,1,17706000,Online
+5,Tienda Cali Chipichape,4,Deportes,2023,2,16823000,Telefono
+5,Tienda Cali Chipichape,4,Deportes,2023,3,18275000,Presencial
+5,Tienda Cali Chipichape,4,Deportes,2023,4,18833000,Presencial
+5,Tienda Cali Chipichape,4,Deportes,2023,5,18142000,Telefono
+5,Tienda Cali Chipichape,4,Deportes,2023,6,19212000,Online
+5,Tienda Cali Chipichape,4,Deportes,2023,7,18621000,Presencial
+5,Tienda Cali Chipichape,4,Deportes,2023,8,16533000,Presencial
+5,Tienda Cali Chipichape,4,Deportes,2023,9,17264000,App
+5,Tienda Cali Chipichape,4,Deportes,2023,10,19358000,Presencial
+5,Tienda Cali Chipichape,4,Deportes,2023,11,20119000,Telefono
+5,Tienda Cali Chipichape,4,Deportes,2023,12,23919000,Presencial
+5,Tienda Cali Chipichape,5,Belleza,2023,1,15183000,Online
+5,Tienda Cali Chipichape,5,Belleza,2023,2,13932000,Presencial
+5,Tienda Cali Chipichape,5,Belleza,2023,3,15063000,Telefono
+5,Tienda Cali Chipichape,5,Belleza,2023,4,15197000,Presencial
+5,Tienda Cali Chipichape,5,Belleza,2023,5,14936000,App
+5,Tienda Cali Chipichape,5,Belleza,2023,6,16150000,App
+5,Tienda Cali Chipichape,5,Belleza,2023,7,15756000,App
+5,Tienda Cali Chipichape,5,Belleza,2023,8,15029000,App
+5,Tienda Cali Chipichape,5,Belleza,2023,9,14256000,Presencial
+5,Tienda Cali Chipichape,5,Belleza,2023,10,15608000,Online
+5,Tienda Cali Chipichape,5,Belleza,2023,11,15660000,Telefono
+5,Tienda Cali Chipichape,5,Belleza,2023,12,20286000,Telefono
+5,Tienda Cali Chipichape,6,Juguetes,2023,1,13007000,Telefono
+5,Tienda Cali Chipichape,6,Juguetes,2023,2,11188000,App
+5,Tienda Cali Chipichape,6,Juguetes,2023,3,11789000,Presencial
+5,Tienda Cali Chipichape,6,Juguetes,2023,4,14008000,Online
+5,Tienda Cali Chipichape,6,Juguetes,2023,5,13767000,Online
+5,Tienda Cali Chipichape,6,Juguetes,2023,6,13077000,App
+5,Tienda Cali Chipichape,6,Juguetes,2023,7,13045000,Presencial
+5,Tienda Cali Chipichape,6,Juguetes,2023,8,12219000,Telefono
+5,Tienda Cali Chipichape,6,Juguetes,2023,9,13610000,Telefono
+5,Tienda Cali Chipichape,6,Juguetes,2023,10,14933000,App
+5,Tienda Cali Chipichape,6,Juguetes,2023,11,13576000,Presencial
+5,Tienda Cali Chipichape,6,Juguetes,2023,12,16116000,Presencial
+5,Tienda Cali Chipichape,7,Alimentos,2023,1,33917000,Telefono
+5,Tienda Cali Chipichape,7,Alimentos,2023,2,29128000,Presencial
+5,Tienda Cali Chipichape,7,Alimentos,2023,3,31437000,Telefono
+5,Tienda Cali Chipichape,7,Alimentos,2023,4,33528000,App
+5,Tienda Cali Chipichape,7,Alimentos,2023,5,33469000,App
+5,Tienda Cali Chipichape,7,Alimentos,2023,6,34562000,Presencial
+5,Tienda Cali Chipichape,7,Alimentos,2023,7,35086000,Telefono
+5,Tienda Cali Chipichape,7,Alimentos,2023,8,30272000,Online
+5,Tienda Cali Chipichape,7,Alimentos,2023,9,30837000,App
+5,Tienda Cali Chipichape,7,Alimentos,2023,10,32760000,Presencial
+5,Tienda Cali Chipichape,7,Alimentos,2023,11,35043000,Telefono
+5,Tienda Cali Chipichape,7,Alimentos,2023,12,39817000,Telefono
+5,Tienda Cali Chipichape,8,Libros,2023,1,10321000,App
+5,Tienda Cali Chipichape,8,Libros,2023,2,9149000,Presencial
+5,Tienda Cali Chipichape,8,Libros,2023,3,9859000,Telefono
+5,Tienda Cali Chipichape,8,Libros,2023,4,9431000,Telefono
+5,Tienda Cali Chipichape,8,Libros,2023,5,11057000,Telefono
+5,Tienda Cali Chipichape,8,Libros,2023,6,10888000,Telefono
+5,Tienda Cali Chipichape,8,Libros,2023,7,9394000,Online
+5,Tienda Cali Chipichape,8,Libros,2023,8,9793000,App
+5,Tienda Cali Chipichape,8,Libros,2023,9,9498000,Presencial
+5,Tienda Cali Chipichape,8,Libros,2023,10,10010000,Online
+5,Tienda Cali Chipichape,8,Libros,2023,11,10998000,App
+5,Tienda Cali Chipichape,8,Libros,2023,12,12922000,Telefono
+5,Tienda Cali Chipichape,9,Mascotas,2023,1,12860000,Telefono
+5,Tienda Cali Chipichape,9,Mascotas,2023,2,11770000,Presencial
+5,Tienda Cali Chipichape,9,Mascotas,2023,3,13370000,Online
+5,Tienda Cali Chipichape,9,Mascotas,2023,4,12533000,Presencial
+5,Tienda Cali Chipichape,9,Mascotas,2023,5,14311000,Telefono
+5,Tienda Cali Chipichape,9,Mascotas,2023,6,13139000,App
+5,Tienda Cali Chipichape,9,Mascotas,2023,7,13230000,App
+5,Tienda Cali Chipichape,9,Mascotas,2023,8,12424000,Online
+5,Tienda Cali Chipichape,9,Mascotas,2023,9,13801000,Presencial
+5,Tienda Cali Chipichape,9,Mascotas,2023,10,13578000,Presencial
+5,Tienda Cali Chipichape,9,Mascotas,2023,11,14080000,App
+5,Tienda Cali Chipichape,9,Mascotas,2023,12,17312000,Telefono
+5,Tienda Cali Chipichape,10,Ferretería,2023,1,17025000,App
+5,Tienda Cali Chipichape,10,Ferretería,2023,2,16816000,Presencial
+5,Tienda Cali Chipichape,10,Ferretería,2023,3,16068000,Telefono
+5,Tienda Cali Chipichape,10,Ferretería,2023,4,19668000,Online
+5,Tienda Cali Chipichape,10,Ferretería,2023,5,20093000,Telefono
+5,Tienda Cali Chipichape,10,Ferretería,2023,6,17855000,Presencial
+5,Tienda Cali Chipichape,10,Ferretería,2023,7,18352000,App
+5,Tienda Cali Chipichape,10,Ferretería,2023,8,16537000,App
+5,Tienda Cali Chipichape,10,Ferretería,2023,9,18456000,Online
+5,Tienda Cali Chipichape,10,Ferretería,2023,10,19279000,Telefono
+5,Tienda Cali Chipichape,10,Ferretería,2023,11,18813000,Presencial
+5,Tienda Cali Chipichape,10,Ferretería,2023,12,23624000,App
+6,Tienda Cali Sur,1,Electrónica,2023,1,40561000,Telefono
+6,Tienda Cali Sur,1,Electrónica,2023,2,32692000,App
+6,Tienda Cali Sur,1,Electrónica,2023,3,37310000,App
+6,Tienda Cali Sur,1,Electrónica,2023,4,36720000,App
+6,Tienda Cali Sur,1,Electrónica,2023,5,36841000,Telefono
+6,Tienda Cali Sur,1,Electrónica,2023,6,36005000,App
+6,Tienda Cali Sur,1,Electrónica,2023,7,40019000,Telefono
+6,Tienda Cali Sur,1,Electrónica,2023,8,33721000,Presencial
+6,Tienda Cali Sur,1,Electrónica,2023,9,36439000,App
+6,Tienda Cali Sur,1,Electrónica,2023,10,40053000,App
+6,Tienda Cali Sur,1,Electrónica,2023,11,44278000,Telefono
+6,Tienda Cali Sur,1,Electrónica,2023,12,47199000,Online
+6,Tienda Cali Sur,2,Ropa y Moda,2023,1,24797000,Presencial
+6,Tienda Cali Sur,2,Ropa y Moda,2023,2,22721000,Online
+6,Tienda Cali Sur,2,Ropa y Moda,2023,3,26911000,Telefono
+6,Tienda Cali Sur,2,Ropa y Moda,2023,4,25966000,Online
+6,Tienda Cali Sur,2,Ropa y Moda,2023,5,26751000,Online
+6,Tienda Cali Sur,2,Ropa y Moda,2023,6,25561000,Online
+6,Tienda Cali Sur,2,Ropa y Moda,2023,7,27036000,Presencial
+6,Tienda Cali Sur,2,Ropa y Moda,2023,8,23965000,App
+6,Tienda Cali Sur,2,Ropa y Moda,2023,9,26447000,App
+6,Tienda Cali Sur,2,Ropa y Moda,2023,10,28739000,Telefono
+6,Tienda Cali Sur,2,Ropa y Moda,2023,11,30965000,Telefono
+6,Tienda Cali Sur,2,Ropa y Moda,2023,12,32649000,Presencial
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,1,22687000,Telefono
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,2,20299000,Presencial
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,3,21147000,Presencial
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,4,22108000,App
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,5,22169000,Telefono
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,6,24010000,Presencial
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,7,23328000,Presencial
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,8,22059000,App
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,9,22664000,Presencial
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,10,23747000,Online
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,11,24364000,App
+6,Tienda Cali Sur,3,Hogar y Cocina,2023,12,29646000,Presencial
+6,Tienda Cali Sur,4,Deportes,2023,1,16965000,Telefono
+6,Tienda Cali Sur,4,Deportes,2023,2,15657000,Presencial
+6,Tienda Cali Sur,4,Deportes,2023,3,16257000,Online
+6,Tienda Cali Sur,4,Deportes,2023,4,15839000,App
+6,Tienda Cali Sur,4,Deportes,2023,5,19366000,Online
+6,Tienda Cali Sur,4,Deportes,2023,6,16728000,Telefono
+6,Tienda Cali Sur,4,Deportes,2023,7,16792000,Telefono
+6,Tienda Cali Sur,4,Deportes,2023,8,16710000,Presencial
+6,Tienda Cali Sur,4,Deportes,2023,9,17891000,Telefono
+6,Tienda Cali Sur,4,Deportes,2023,10,16708000,Presencial
+6,Tienda Cali Sur,4,Deportes,2023,11,18984000,App
+6,Tienda Cali Sur,4,Deportes,2023,12,21462000,Online
+6,Tienda Cali Sur,5,Belleza,2023,1,13870000,Online
+6,Tienda Cali Sur,5,Belleza,2023,2,12920000,Telefono
+6,Tienda Cali Sur,5,Belleza,2023,3,14551000,App
+6,Tienda Cali Sur,5,Belleza,2023,4,13404000,Presencial
+6,Tienda Cali Sur,5,Belleza,2023,5,14507000,App
+6,Tienda Cali Sur,5,Belleza,2023,6,14577000,Telefono
+6,Tienda Cali Sur,5,Belleza,2023,7,14964000,Presencial
+6,Tienda Cali Sur,5,Belleza,2023,8,13854000,App
+6,Tienda Cali Sur,5,Belleza,2023,9,14269000,Presencial
+6,Tienda Cali Sur,5,Belleza,2023,10,14634000,Online
+6,Tienda Cali Sur,5,Belleza,2023,11,16807000,Telefono
+6,Tienda Cali Sur,5,Belleza,2023,12,19852000,App
+6,Tienda Cali Sur,6,Juguetes,2023,1,11741000,Online
+6,Tienda Cali Sur,6,Juguetes,2023,2,9918000,Telefono
+6,Tienda Cali Sur,6,Juguetes,2023,3,12379000,Presencial
+6,Tienda Cali Sur,6,Juguetes,2023,4,12365000,Presencial
+6,Tienda Cali Sur,6,Juguetes,2023,5,13303000,Online
+6,Tienda Cali Sur,6,Juguetes,2023,6,12542000,Online
+6,Tienda Cali Sur,6,Juguetes,2023,7,11683000,Online
+6,Tienda Cali Sur,6,Juguetes,2023,8,12148000,Presencial
+6,Tienda Cali Sur,6,Juguetes,2023,9,12174000,Online
+6,Tienda Cali Sur,6,Juguetes,2023,10,13942000,Telefono
+6,Tienda Cali Sur,6,Juguetes,2023,11,14134000,App
+6,Tienda Cali Sur,6,Juguetes,2023,12,15372000,Online
+6,Tienda Cali Sur,7,Alimentos,2023,1,29473000,App
+6,Tienda Cali Sur,7,Alimentos,2023,2,27510000,Online
+6,Tienda Cali Sur,7,Alimentos,2023,3,28269000,App
+6,Tienda Cali Sur,7,Alimentos,2023,4,30214000,Telefono
+6,Tienda Cali Sur,7,Alimentos,2023,5,33340000,App
+6,Tienda Cali Sur,7,Alimentos,2023,6,32668000,Online
+6,Tienda Cali Sur,7,Alimentos,2023,7,31865000,Online
+6,Tienda Cali Sur,7,Alimentos,2023,8,30604000,Presencial
+6,Tienda Cali Sur,7,Alimentos,2023,9,31087000,Telefono
+6,Tienda Cali Sur,7,Alimentos,2023,10,32199000,Presencial
+6,Tienda Cali Sur,7,Alimentos,2023,11,34571000,Presencial
+6,Tienda Cali Sur,7,Alimentos,2023,12,38161000,Online
+6,Tienda Cali Sur,8,Libros,2023,1,9155000,Online
+6,Tienda Cali Sur,8,Libros,2023,2,8503000,Presencial
+6,Tienda Cali Sur,8,Libros,2023,3,9670000,Online
+6,Tienda Cali Sur,8,Libros,2023,4,9981000,Telefono
+6,Tienda Cali Sur,8,Libros,2023,5,10662000,App
+6,Tienda Cali Sur,8,Libros,2023,6,8821000,Telefono
+6,Tienda Cali Sur,8,Libros,2023,7,9098000,Presencial
+6,Tienda Cali Sur,8,Libros,2023,8,8844000,Presencial
+6,Tienda Cali Sur,8,Libros,2023,9,9224000,Presencial
+6,Tienda Cali Sur,8,Libros,2023,10,10516000,Telefono
+6,Tienda Cali Sur,8,Libros,2023,11,10937000,Online
+6,Tienda Cali Sur,8,Libros,2023,12,11438000,App
+6,Tienda Cali Sur,9,Mascotas,2023,1,12737000,Online
+6,Tienda Cali Sur,9,Mascotas,2023,2,10932000,App
+6,Tienda Cali Sur,9,Mascotas,2023,3,11636000,Presencial
+6,Tienda Cali Sur,9,Mascotas,2023,4,13152000,Presencial
+6,Tienda Cali Sur,9,Mascotas,2023,5,12461000,Online
+6,Tienda Cali Sur,9,Mascotas,2023,6,12446000,App
+6,Tienda Cali Sur,9,Mascotas,2023,7,11582000,Telefono
+6,Tienda Cali Sur,9,Mascotas,2023,8,11240000,Presencial
+6,Tienda Cali Sur,9,Mascotas,2023,9,11456000,App
+6,Tienda Cali Sur,9,Mascotas,2023,10,13256000,App
+6,Tienda Cali Sur,9,Mascotas,2023,11,12635000,App
+6,Tienda Cali Sur,9,Mascotas,2023,12,16304000,Presencial
+6,Tienda Cali Sur,10,Ferretería,2023,1,17461000,Online
+6,Tienda Cali Sur,10,Ferretería,2023,2,15043000,Telefono
+6,Tienda Cali Sur,10,Ferretería,2023,3,16061000,Telefono
+6,Tienda Cali Sur,10,Ferretería,2023,4,16390000,App
+6,Tienda Cali Sur,10,Ferretería,2023,5,17057000,Presencial
+6,Tienda Cali Sur,10,Ferretería,2023,6,17164000,Telefono
+6,Tienda Cali Sur,10,Ferretería,2023,7,15917000,Presencial
+6,Tienda Cali Sur,10,Ferretería,2023,8,15960000,App
+6,Tienda Cali Sur,10,Ferretería,2023,9,15851000,App
+6,Tienda Cali Sur,10,Ferretería,2023,10,19337000,Telefono
+6,Tienda Cali Sur,10,Ferretería,2023,11,19554000,Telefono
+6,Tienda Cali Sur,10,Ferretería,2023,12,23256000,Telefono
+7,Tienda Barranquilla,1,Electrónica,2023,1,37576000,Presencial
+7,Tienda Barranquilla,1,Electrónica,2023,2,34767000,Telefono
+7,Tienda Barranquilla,1,Electrónica,2023,3,35056000,Telefono
+7,Tienda Barranquilla,1,Electrónica,2023,4,39489000,Online
+7,Tienda Barranquilla,1,Electrónica,2023,5,43336000,App
+7,Tienda Barranquilla,1,Electrónica,2023,6,42216000,App
+7,Tienda Barranquilla,1,Electrónica,2023,7,40026000,Online
+7,Tienda Barranquilla,1,Electrónica,2023,8,34637000,App
+7,Tienda Barranquilla,1,Electrónica,2023,9,36296000,Online
+7,Tienda Barranquilla,1,Electrónica,2023,10,38156000,Online
+7,Tienda Barranquilla,1,Electrónica,2023,11,45782000,Telefono
+7,Tienda Barranquilla,1,Electrónica,2023,12,54494000,App
+7,Tienda Barranquilla,2,Ropa y Moda,2023,1,29587000,App
+7,Tienda Barranquilla,2,Ropa y Moda,2023,2,22403000,Online
+7,Tienda Barranquilla,2,Ropa y Moda,2023,3,25176000,Presencial
+7,Tienda Barranquilla,2,Ropa y Moda,2023,4,29046000,Telefono
+7,Tienda Barranquilla,2,Ropa y Moda,2023,5,27767000,Telefono
+7,Tienda Barranquilla,2,Ropa y Moda,2023,6,27163000,App
+7,Tienda Barranquilla,2,Ropa y Moda,2023,7,28508000,App
+7,Tienda Barranquilla,2,Ropa y Moda,2023,8,25397000,Online
+7,Tienda Barranquilla,2,Ropa y Moda,2023,9,27423000,App
+7,Tienda Barranquilla,2,Ropa y Moda,2023,10,28200000,Telefono
+7,Tienda Barranquilla,2,Ropa y Moda,2023,11,31638000,App
+7,Tienda Barranquilla,2,Ropa y Moda,2023,12,33269000,Online
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,1,23691000,Telefono
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,2,18721000,Telefono
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,3,22919000,Telefono
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,4,23316000,App
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,5,23379000,App
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,6,22961000,Presencial
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,7,24374000,Telefono
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,8,22755000,App
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,9,22672000,Presencial
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,10,23017000,App
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,11,25306000,Online
+7,Tienda Barranquilla,3,Hogar y Cocina,2023,12,32791000,Online
+7,Tienda Barranquilla,4,Deportes,2023,1,18624000,App
+7,Tienda Barranquilla,4,Deportes,2023,2,13878000,Presencial
+7,Tienda Barranquilla,4,Deportes,2023,3,16050000,Telefono
+7,Tienda Barranquilla,4,Deportes,2023,4,17251000,Presencial
+7,Tienda Barranquilla,4,Deportes,2023,5,18833000,App
+7,Tienda Barranquilla,4,Deportes,2023,6,18907000,Telefono
+7,Tienda Barranquilla,4,Deportes,2023,7,17482000,Presencial
+7,Tienda Barranquilla,4,Deportes,2023,8,16956000,Telefono
+7,Tienda Barranquilla,4,Deportes,2023,9,17352000,Telefono
+7,Tienda Barranquilla,4,Deportes,2023,10,17780000,Presencial
+7,Tienda Barranquilla,4,Deportes,2023,11,17932000,Online
+7,Tienda Barranquilla,4,Deportes,2023,12,22928000,App
+7,Tienda Barranquilla,5,Belleza,2023,1,15673000,Presencial
+7,Tienda Barranquilla,5,Belleza,2023,2,12019000,Telefono
+7,Tienda Barranquilla,5,Belleza,2023,3,14421000,Online
+7,Tienda Barranquilla,5,Belleza,2023,4,15867000,Telefono
+7,Tienda Barranquilla,5,Belleza,2023,5,15914000,App
+7,Tienda Barranquilla,5,Belleza,2023,6,13995000,Online
+7,Tienda Barranquilla,5,Belleza,2023,7,15530000,App
+7,Tienda Barranquilla,5,Belleza,2023,8,13234000,App
+7,Tienda Barranquilla,5,Belleza,2023,9,15870000,Telefono
+7,Tienda Barranquilla,5,Belleza,2023,10,15849000,Presencial
+7,Tienda Barranquilla,5,Belleza,2023,11,16299000,Telefono
+7,Tienda Barranquilla,5,Belleza,2023,12,20307000,Online
+7,Tienda Barranquilla,6,Juguetes,2023,1,13172000,Online
+7,Tienda Barranquilla,6,Juguetes,2023,2,11338000,Online
+7,Tienda Barranquilla,6,Juguetes,2023,3,11370000,Online
+7,Tienda Barranquilla,6,Juguetes,2023,4,13335000,Online
+7,Tienda Barranquilla,6,Juguetes,2023,5,13998000,Presencial
+7,Tienda Barranquilla,6,Juguetes,2023,6,12456000,Telefono
+7,Tienda Barranquilla,6,Juguetes,2023,7,12674000,Online
+7,Tienda Barranquilla,6,Juguetes,2023,8,12320000,Presencial
+7,Tienda Barranquilla,6,Juguetes,2023,9,11855000,App
+7,Tienda Barranquilla,6,Juguetes,2023,10,14446000,App
+7,Tienda Barranquilla,6,Juguetes,2023,11,14072000,App
+7,Tienda Barranquilla,6,Juguetes,2023,12,17419000,Presencial
+7,Tienda Barranquilla,7,Alimentos,2023,1,29480000,Telefono
+7,Tienda Barranquilla,7,Alimentos,2023,2,27263000,App
+7,Tienda Barranquilla,7,Alimentos,2023,3,29629000,Telefono
+7,Tienda Barranquilla,7,Alimentos,2023,4,29495000,Online
+7,Tienda Barranquilla,7,Alimentos,2023,5,34339000,Online
+7,Tienda Barranquilla,7,Alimentos,2023,6,31022000,Presencial
+7,Tienda Barranquilla,7,Alimentos,2023,7,33023000,Online
+7,Tienda Barranquilla,7,Alimentos,2023,8,28858000,Online
+7,Tienda Barranquilla,7,Alimentos,2023,9,30470000,Online
+7,Tienda Barranquilla,7,Alimentos,2023,10,32117000,Telefono
+7,Tienda Barranquilla,7,Alimentos,2023,11,36405000,Telefono
+7,Tienda Barranquilla,7,Alimentos,2023,12,38787000,Telefono
+7,Tienda Barranquilla,8,Libros,2023,1,9212000,Telefono
+7,Tienda Barranquilla,8,Libros,2023,2,8483000,Presencial
+7,Tienda Barranquilla,8,Libros,2023,3,9314000,Online
+7,Tienda Barranquilla,8,Libros,2023,4,9944000,Online
+7,Tienda Barranquilla,8,Libros,2023,5,9749000,Telefono
+7,Tienda Barranquilla,8,Libros,2023,6,10337000,Presencial
+7,Tienda Barranquilla,8,Libros,2023,7,10310000,Presencial
+7,Tienda Barranquilla,8,Libros,2023,8,8686000,Telefono
+7,Tienda Barranquilla,8,Libros,2023,9,10037000,App
+7,Tienda Barranquilla,8,Libros,2023,10,10484000,Presencial
+7,Tienda Barranquilla,8,Libros,2023,11,10777000,Telefono
+7,Tienda Barranquilla,8,Libros,2023,12,13029000,Telefono
+7,Tienda Barranquilla,9,Mascotas,2023,1,12705000,App
+7,Tienda Barranquilla,9,Mascotas,2023,2,10478000,Presencial
+7,Tienda Barranquilla,9,Mascotas,2023,3,12468000,Online
+7,Tienda Barranquilla,9,Mascotas,2023,4,12617000,App
+7,Tienda Barranquilla,9,Mascotas,2023,5,13301000,Telefono
+7,Tienda Barranquilla,9,Mascotas,2023,6,12957000,Telefono
+7,Tienda Barranquilla,9,Mascotas,2023,7,13477000,Telefono
+7,Tienda Barranquilla,9,Mascotas,2023,8,12557000,Telefono
+7,Tienda Barranquilla,9,Mascotas,2023,9,13709000,Online
+7,Tienda Barranquilla,9,Mascotas,2023,10,13935000,Presencial
+7,Tienda Barranquilla,9,Mascotas,2023,11,13608000,App
+7,Tienda Barranquilla,9,Mascotas,2023,12,15562000,App
+7,Tienda Barranquilla,10,Ferretería,2023,1,16929000,Presencial
+7,Tienda Barranquilla,10,Ferretería,2023,2,13916000,App
+7,Tienda Barranquilla,10,Ferretería,2023,3,17734000,App
+7,Tienda Barranquilla,10,Ferretería,2023,4,16930000,Online
+7,Tienda Barranquilla,10,Ferretería,2023,5,19451000,Telefono
+7,Tienda Barranquilla,10,Ferretería,2023,6,16765000,Online
+7,Tienda Barranquilla,10,Ferretería,2023,7,17635000,App
+7,Tienda Barranquilla,10,Ferretería,2023,8,16755000,Telefono
+7,Tienda Barranquilla,10,Ferretería,2023,9,17633000,Presencial
+7,Tienda Barranquilla,10,Ferretería,2023,10,19841000,App
+7,Tienda Barranquilla,10,Ferretería,2023,11,20853000,Online
+7,Tienda Barranquilla,10,Ferretería,2023,12,23238000,Presencial
+8,Tienda Bucaramanga,1,Electrónica,2023,1,34525000,App
+8,Tienda Bucaramanga,1,Electrónica,2023,2,32113000,App
+8,Tienda Bucaramanga,1,Electrónica,2023,3,34129000,Presencial
+8,Tienda Bucaramanga,1,Electrónica,2023,4,39266000,App
+8,Tienda Bucaramanga,1,Electrónica,2023,5,36772000,Telefono
+8,Tienda Bucaramanga,1,Electrónica,2023,6,38554000,App
+8,Tienda Bucaramanga,1,Electrónica,2023,7,36402000,App
+8,Tienda Bucaramanga,1,Electrónica,2023,8,32802000,Online
+8,Tienda Bucaramanga,1,Electrónica,2023,9,36382000,Telefono
+8,Tienda Bucaramanga,1,Electrónica,2023,10,36395000,App
+8,Tienda Bucaramanga,1,Electrónica,2023,11,42651000,Telefono
+8,Tienda Bucaramanga,1,Electrónica,2023,12,50877000,Presencial
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,1,24493000,Presencial
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,2,21758000,Telefono
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,3,24967000,Telefono
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,4,27102000,Online
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,5,27790000,App
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,6,26040000,Presencial
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,7,24119000,Telefono
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,8,25941000,App
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,9,24577000,Online
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,10,26589000,Telefono
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,11,27097000,Telefono
+8,Tienda Bucaramanga,2,Ropa y Moda,2023,12,34360000,App
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,1,23065000,Telefono
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,2,18896000,Presencial
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,3,20757000,Presencial
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,4,24034000,Telefono
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,5,24549000,Presencial
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,6,22666000,Telefono
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,7,23988000,Online
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,8,21955000,App
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,9,21143000,App
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,10,22115000,Online
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,11,22712000,Presencial
+8,Tienda Bucaramanga,3,Hogar y Cocina,2023,12,27580000,App
+8,Tienda Bucaramanga,4,Deportes,2023,1,16241000,Online
+8,Tienda Bucaramanga,4,Deportes,2023,2,14031000,Online
+8,Tienda Bucaramanga,4,Deportes,2023,3,15675000,App
+8,Tienda Bucaramanga,4,Deportes,2023,4,17739000,Presencial
+8,Tienda Bucaramanga,4,Deportes,2023,5,18156000,Online
+8,Tienda Bucaramanga,4,Deportes,2023,6,16903000,App
+8,Tienda Bucaramanga,4,Deportes,2023,7,16808000,Telefono
+8,Tienda Bucaramanga,4,Deportes,2023,8,17065000,App
+8,Tienda Bucaramanga,4,Deportes,2023,9,17844000,Telefono
+8,Tienda Bucaramanga,4,Deportes,2023,10,17707000,Telefono
+8,Tienda Bucaramanga,4,Deportes,2023,11,18738000,Online
+8,Tienda Bucaramanga,4,Deportes,2023,12,23354000,Telefono
+8,Tienda Bucaramanga,5,Belleza,2023,1,14080000,Online
+8,Tienda Bucaramanga,5,Belleza,2023,2,12695000,Telefono
+8,Tienda Bucaramanga,5,Belleza,2023,3,13827000,Online
+8,Tienda Bucaramanga,5,Belleza,2023,4,14375000,App
+8,Tienda Bucaramanga,5,Belleza,2023,5,14219000,Telefono
+8,Tienda Bucaramanga,5,Belleza,2023,6,14085000,Telefono
+8,Tienda Bucaramanga,5,Belleza,2023,7,13476000,App
+8,Tienda Bucaramanga,5,Belleza,2023,8,14092000,App
+8,Tienda Bucaramanga,5,Belleza,2023,9,14661000,Online
+8,Tienda Bucaramanga,5,Belleza,2023,10,14156000,Telefono
+8,Tienda Bucaramanga,5,Belleza,2023,11,16463000,Presencial
+8,Tienda Bucaramanga,5,Belleza,2023,12,17689000,App
+8,Tienda Bucaramanga,6,Juguetes,2023,1,12392000,App
+8,Tienda Bucaramanga,6,Juguetes,2023,2,9806000,Telefono
+8,Tienda Bucaramanga,6,Juguetes,2023,3,12281000,Telefono
+8,Tienda Bucaramanga,6,Juguetes,2023,4,11388000,Online
+8,Tienda Bucaramanga,6,Juguetes,2023,5,12171000,Online
+8,Tienda Bucaramanga,6,Juguetes,2023,6,12357000,Presencial
+8,Tienda Bucaramanga,6,Juguetes,2023,7,11317000,Telefono
+8,Tienda Bucaramanga,6,Juguetes,2023,8,11885000,Presencial
+8,Tienda Bucaramanga,6,Juguetes,2023,9,12440000,Online
+8,Tienda Bucaramanga,6,Juguetes,2023,10,11689000,Online
+8,Tienda Bucaramanga,6,Juguetes,2023,11,13101000,App
+8,Tienda Bucaramanga,6,Juguetes,2023,12,15660000,Online
+8,Tienda Bucaramanga,7,Alimentos,2023,1,30979000,Telefono
+8,Tienda Bucaramanga,7,Alimentos,2023,2,24572000,Presencial
+8,Tienda Bucaramanga,7,Alimentos,2023,3,30117000,Presencial
+8,Tienda Bucaramanga,7,Alimentos,2023,4,30485000,Online
+8,Tienda Bucaramanga,7,Alimentos,2023,5,31424000,Presencial
+8,Tienda Bucaramanga,7,Alimentos,2023,6,31728000,Online
+8,Tienda Bucaramanga,7,Alimentos,2023,7,29369000,Online
+8,Tienda Bucaramanga,7,Alimentos,2023,8,30235000,Presencial
+8,Tienda Bucaramanga,7,Alimentos,2023,9,32127000,App
+8,Tienda Bucaramanga,7,Alimentos,2023,10,32688000,Online
+8,Tienda Bucaramanga,7,Alimentos,2023,11,35023000,Telefono
+8,Tienda Bucaramanga,7,Alimentos,2023,12,41020000,Presencial
+8,Tienda Bucaramanga,8,Libros,2023,1,9000000,Presencial
+8,Tienda Bucaramanga,8,Libros,2023,2,8447000,Telefono
+8,Tienda Bucaramanga,8,Libros,2023,3,8530000,App
+8,Tienda Bucaramanga,8,Libros,2023,4,9879000,Online
+8,Tienda Bucaramanga,8,Libros,2023,5,10313000,App
+8,Tienda Bucaramanga,8,Libros,2023,6,8962000,Presencial
+8,Tienda Bucaramanga,8,Libros,2023,7,9048000,App
+8,Tienda Bucaramanga,8,Libros,2023,8,9045000,Online
+8,Tienda Bucaramanga,8,Libros,2023,9,8577000,Telefono
+8,Tienda Bucaramanga,8,Libros,2023,10,10219000,Online
+8,Tienda Bucaramanga,8,Libros,2023,11,9699000,App
+8,Tienda Bucaramanga,8,Libros,2023,12,12723000,Telefono
+8,Tienda Bucaramanga,9,Mascotas,2023,1,11291000,Presencial
+8,Tienda Bucaramanga,9,Mascotas,2023,2,9758000,Online
+8,Tienda Bucaramanga,9,Mascotas,2023,3,11444000,Online
+8,Tienda Bucaramanga,9,Mascotas,2023,4,11136000,App
+8,Tienda Bucaramanga,9,Mascotas,2023,5,12157000,Telefono
+8,Tienda Bucaramanga,9,Mascotas,2023,6,12968000,Telefono
+8,Tienda Bucaramanga,9,Mascotas,2023,7,12250000,Presencial
+8,Tienda Bucaramanga,9,Mascotas,2023,8,11047000,Telefono
+8,Tienda Bucaramanga,9,Mascotas,2023,9,12463000,Presencial
+8,Tienda Bucaramanga,9,Mascotas,2023,10,13035000,App
+8,Tienda Bucaramanga,9,Mascotas,2023,11,12888000,App
+8,Tienda Bucaramanga,9,Mascotas,2023,12,16185000,Telefono
+8,Tienda Bucaramanga,10,Ferretería,2023,1,17250000,Telefono
+8,Tienda Bucaramanga,10,Ferretería,2023,2,13927000,Online
+8,Tienda Bucaramanga,10,Ferretería,2023,3,15188000,Online
+8,Tienda Bucaramanga,10,Ferretería,2023,4,16682000,App
+8,Tienda Bucaramanga,10,Ferretería,2023,5,18274000,Telefono
+8,Tienda Bucaramanga,10,Ferretería,2023,6,16515000,App
+8,Tienda Bucaramanga,10,Ferretería,2023,7,17429000,Online
+8,Tienda Bucaramanga,10,Ferretería,2023,8,16569000,Presencial
+8,Tienda Bucaramanga,10,Ferretería,2023,9,16808000,Telefono
+8,Tienda Bucaramanga,10,Ferretería,2023,10,16390000,Presencial
+8,Tienda Bucaramanga,10,Ferretería,2023,11,17123000,Online
+8,Tienda Bucaramanga,10,Ferretería,2023,12,22015000,Online
+9,Tienda Pereira,1,Electrónica,2023,1,34068000,App
+9,Tienda Pereira,1,Electrónica,2023,2,28721000,Online
+9,Tienda Pereira,1,Electrónica,2023,3,35387000,App
+9,Tienda Pereira,1,Electrónica,2023,4,33644000,App
+9,Tienda Pereira,1,Electrónica,2023,5,39667000,App
+9,Tienda Pereira,1,Electrónica,2023,6,33880000,App
+9,Tienda Pereira,1,Electrónica,2023,7,35751000,Presencial
+9,Tienda Pereira,1,Electrónica,2023,8,34522000,Telefono
+9,Tienda Pereira,1,Electrónica,2023,9,37286000,App
+9,Tienda Pereira,1,Electrónica,2023,10,36315000,Presencial
+9,Tienda Pereira,1,Electrónica,2023,11,41157000,Presencial
+9,Tienda Pereira,1,Electrónica,2023,12,43395000,Telefono
+9,Tienda Pereira,2,Ropa y Moda,2023,1,26008000,Presencial
+9,Tienda Pereira,2,Ropa y Moda,2023,2,22909000,Presencial
+9,Tienda Pereira,2,Ropa y Moda,2023,3,25802000,App
+9,Tienda Pereira,2,Ropa y Moda,2023,4,23312000,App
+9,Tienda Pereira,2,Ropa y Moda,2023,5,25105000,Online
+9,Tienda Pereira,2,Ropa y Moda,2023,6,26272000,App
+9,Tienda Pereira,2,Ropa y Moda,2023,7,24694000,App
+9,Tienda Pereira,2,Ropa y Moda,2023,8,23743000,App
+9,Tienda Pereira,2,Ropa y Moda,2023,9,24699000,Online
+9,Tienda Pereira,2,Ropa y Moda,2023,10,27110000,Telefono
+9,Tienda Pereira,2,Ropa y Moda,2023,11,26029000,App
+9,Tienda Pereira,2,Ropa y Moda,2023,12,32911000,Online
+9,Tienda Pereira,3,Hogar y Cocina,2023,1,22757000,Presencial
+9,Tienda Pereira,3,Hogar y Cocina,2023,2,19766000,App
+9,Tienda Pereira,3,Hogar y Cocina,2023,3,21090000,App
+9,Tienda Pereira,3,Hogar y Cocina,2023,4,21710000,Online
+9,Tienda Pereira,3,Hogar y Cocina,2023,5,21764000,Telefono
+9,Tienda Pereira,3,Hogar y Cocina,2023,6,20408000,Online
+9,Tienda Pereira,3,Hogar y Cocina,2023,7,23112000,Presencial
+9,Tienda Pereira,3,Hogar y Cocina,2023,8,18984000,App
+9,Tienda Pereira,3,Hogar y Cocina,2023,9,21997000,Presencial
+9,Tienda Pereira,3,Hogar y Cocina,2023,10,21739000,Presencial
+9,Tienda Pereira,3,Hogar y Cocina,2023,11,22243000,Presencial
+9,Tienda Pereira,3,Hogar y Cocina,2023,12,27839000,Presencial
+9,Tienda Pereira,4,Deportes,2023,1,15538000,Presencial
+9,Tienda Pereira,4,Deportes,2023,2,13555000,Online
+9,Tienda Pereira,4,Deportes,2023,3,15488000,Presencial
+9,Tienda Pereira,4,Deportes,2023,4,15267000,Telefono
+9,Tienda Pereira,4,Deportes,2023,5,16286000,Telefono
+9,Tienda Pereira,4,Deportes,2023,6,16401000,Telefono
+9,Tienda Pereira,4,Deportes,2023,7,15518000,Online
+9,Tienda Pereira,4,Deportes,2023,8,16586000,Online
+9,Tienda Pereira,4,Deportes,2023,9,15976000,Telefono
+9,Tienda Pereira,4,Deportes,2023,10,15815000,Online
+9,Tienda Pereira,4,Deportes,2023,11,18179000,App
+9,Tienda Pereira,4,Deportes,2023,12,21248000,Presencial
+9,Tienda Pereira,5,Belleza,2023,1,14520000,App
+9,Tienda Pereira,5,Belleza,2023,2,12000000,Telefono
+9,Tienda Pereira,5,Belleza,2023,3,13228000,App
+9,Tienda Pereira,5,Belleza,2023,4,12742000,App
+9,Tienda Pereira,5,Belleza,2023,5,13458000,App
+9,Tienda Pereira,5,Belleza,2023,6,12940000,Online
+9,Tienda Pereira,5,Belleza,2023,7,13070000,Online
+9,Tienda Pereira,5,Belleza,2023,8,13452000,Presencial
+9,Tienda Pereira,5,Belleza,2023,9,13635000,App
+9,Tienda Pereira,5,Belleza,2023,10,14305000,Online
+9,Tienda Pereira,5,Belleza,2023,11,14585000,Telefono
+9,Tienda Pereira,5,Belleza,2023,12,16717000,Presencial
+9,Tienda Pereira,6,Juguetes,2023,1,12490000,Telefono
+9,Tienda Pereira,6,Juguetes,2023,2,9297000,Online
+9,Tienda Pereira,6,Juguetes,2023,3,10317000,App
+9,Tienda Pereira,6,Juguetes,2023,4,12025000,Presencial
+9,Tienda Pereira,6,Juguetes,2023,5,13019000,Online
+9,Tienda Pereira,6,Juguetes,2023,6,12270000,Online
+9,Tienda Pereira,6,Juguetes,2023,7,11661000,Telefono
+9,Tienda Pereira,6,Juguetes,2023,8,10765000,Presencial
+9,Tienda Pereira,6,Juguetes,2023,9,11161000,Online
+9,Tienda Pereira,6,Juguetes,2023,10,13193000,Presencial
+9,Tienda Pereira,6,Juguetes,2023,11,13378000,App
+9,Tienda Pereira,6,Juguetes,2023,12,16219000,Online
+9,Tienda Pereira,7,Alimentos,2023,1,28324000,Online
+9,Tienda Pereira,7,Alimentos,2023,2,24684000,Telefono
+9,Tienda Pereira,7,Alimentos,2023,3,26838000,Telefono
+9,Tienda Pereira,7,Alimentos,2023,4,27917000,Telefono
+9,Tienda Pereira,7,Alimentos,2023,5,30302000,App
+9,Tienda Pereira,7,Alimentos,2023,6,28643000,App
+9,Tienda Pereira,7,Alimentos,2023,7,30006000,Telefono
+9,Tienda Pereira,7,Alimentos,2023,8,29174000,Telefono
+9,Tienda Pereira,7,Alimentos,2023,9,27938000,Presencial
+9,Tienda Pereira,7,Alimentos,2023,10,30543000,Online
+9,Tienda Pereira,7,Alimentos,2023,11,32903000,Presencial
+9,Tienda Pereira,7,Alimentos,2023,12,36007000,App
+9,Tienda Pereira,8,Libros,2023,1,8705000,Online
+9,Tienda Pereira,8,Libros,2023,2,7442000,App
+9,Tienda Pereira,8,Libros,2023,3,8645000,Online
+9,Tienda Pereira,8,Libros,2023,4,8999000,Telefono
+9,Tienda Pereira,8,Libros,2023,5,9083000,App
+9,Tienda Pereira,8,Libros,2023,6,9672000,App
+9,Tienda Pereira,8,Libros,2023,7,8944000,Telefono
+9,Tienda Pereira,8,Libros,2023,8,8098000,App
+9,Tienda Pereira,8,Libros,2023,9,8545000,Presencial
+9,Tienda Pereira,8,Libros,2023,10,9486000,Presencial
+9,Tienda Pereira,8,Libros,2023,11,10605000,Presencial
+9,Tienda Pereira,8,Libros,2023,12,12195000,App
+9,Tienda Pereira,9,Mascotas,2023,1,11021000,Online
+9,Tienda Pereira,9,Mascotas,2023,2,9258000,Online
+9,Tienda Pereira,9,Mascotas,2023,3,10242000,App
+9,Tienda Pereira,9,Mascotas,2023,4,11463000,App
+9,Tienda Pereira,9,Mascotas,2023,5,12598000,Presencial
+9,Tienda Pereira,9,Mascotas,2023,6,10776000,App
+9,Tienda Pereira,9,Mascotas,2023,7,10786000,Telefono
+9,Tienda Pereira,9,Mascotas,2023,8,11179000,Telefono
+9,Tienda Pereira,9,Mascotas,2023,9,10796000,App
+9,Tienda Pereira,9,Mascotas,2023,10,12887000,Online
+9,Tienda Pereira,9,Mascotas,2023,11,12061000,Presencial
+9,Tienda Pereira,9,Mascotas,2023,12,15269000,Online
+9,Tienda Pereira,10,Ferretería,2023,1,15401000,Telefono
+9,Tienda Pereira,10,Ferretería,2023,2,14464000,Telefono
+9,Tienda Pereira,10,Ferretería,2023,3,16116000,Presencial
+9,Tienda Pereira,10,Ferretería,2023,4,15871000,App
+9,Tienda Pereira,10,Ferretería,2023,5,16898000,Online
+9,Tienda Pereira,10,Ferretería,2023,6,17471000,Online
+9,Tienda Pereira,10,Ferretería,2023,7,15682000,Presencial
+9,Tienda Pereira,10,Ferretería,2023,8,15769000,Presencial
+9,Tienda Pereira,10,Ferretería,2023,9,15146000,App
+9,Tienda Pereira,10,Ferretería,2023,10,16676000,App
+9,Tienda Pereira,10,Ferretería,2023,11,16554000,Presencial
+9,Tienda Pereira,10,Ferretería,2023,12,21744000,Presencial
+10,Tienda Manizales,1,Electrónica,2023,1,35199000,App
+10,Tienda Manizales,1,Electrónica,2023,2,30614000,Telefono
+10,Tienda Manizales,1,Electrónica,2023,3,33792000,Presencial
+10,Tienda Manizales,1,Electrónica,2023,4,37423000,Presencial
+10,Tienda Manizales,1,Electrónica,2023,5,35362000,App
+10,Tienda Manizales,1,Electrónica,2023,6,33911000,Presencial
+10,Tienda Manizales,1,Electrónica,2023,7,36239000,Telefono
+10,Tienda Manizales,1,Electrónica,2023,8,35576000,Presencial
+10,Tienda Manizales,1,Electrónica,2023,9,33394000,Telefono
+10,Tienda Manizales,1,Electrónica,2023,10,34096000,Online
+10,Tienda Manizales,1,Electrónica,2023,11,39259000,App
+10,Tienda Manizales,1,Electrónica,2023,12,48900000,Telefono
+10,Tienda Manizales,2,Ropa y Moda,2023,1,23309000,Online
+10,Tienda Manizales,2,Ropa y Moda,2023,2,21168000,App
+10,Tienda Manizales,2,Ropa y Moda,2023,3,24071000,Telefono
+10,Tienda Manizales,2,Ropa y Moda,2023,4,24182000,Online
+10,Tienda Manizales,2,Ropa y Moda,2023,5,27075000,Presencial
+10,Tienda Manizales,2,Ropa y Moda,2023,6,24643000,Telefono
+10,Tienda Manizales,2,Ropa y Moda,2023,7,22880000,App
+10,Tienda Manizales,2,Ropa y Moda,2023,8,22405000,Presencial
+10,Tienda Manizales,2,Ropa y Moda,2023,9,24012000,App
+10,Tienda Manizales,2,Ropa y Moda,2023,10,27813000,Telefono
+10,Tienda Manizales,2,Ropa y Moda,2023,11,25064000,Telefono
+10,Tienda Manizales,2,Ropa y Moda,2023,12,33485000,App
+10,Tienda Manizales,3,Hogar y Cocina,2023,1,21088000,Telefono
+10,Tienda Manizales,3,Hogar y Cocina,2023,2,18104000,App
+10,Tienda Manizales,3,Hogar y Cocina,2023,3,19845000,App
+10,Tienda Manizales,3,Hogar y Cocina,2023,4,19720000,Telefono
+10,Tienda Manizales,3,Hogar y Cocina,2023,5,23234000,Presencial
+10,Tienda Manizales,3,Hogar y Cocina,2023,6,19708000,Online
+10,Tienda Manizales,3,Hogar y Cocina,2023,7,20714000,Online
+10,Tienda Manizales,3,Hogar y Cocina,2023,8,20833000,Telefono
+10,Tienda Manizales,3,Hogar y Cocina,2023,9,20649000,Presencial
+10,Tienda Manizales,3,Hogar y Cocina,2023,10,20420000,Telefono
+10,Tienda Manizales,3,Hogar y Cocina,2023,11,23027000,Telefono
+10,Tienda Manizales,3,Hogar y Cocina,2023,12,25709000,Presencial
+10,Tienda Manizales,4,Deportes,2023,1,15048000,App
+10,Tienda Manizales,4,Deportes,2023,2,13587000,App
+10,Tienda Manizales,4,Deportes,2023,3,14093000,Presencial
+10,Tienda Manizales,4,Deportes,2023,4,15470000,Presencial
+10,Tienda Manizales,4,Deportes,2023,5,16890000,Telefono
+10,Tienda Manizales,4,Deportes,2023,6,16762000,Presencial
+10,Tienda Manizales,4,Deportes,2023,7,15312000,App
+10,Tienda Manizales,4,Deportes,2023,8,15720000,Online
+10,Tienda Manizales,4,Deportes,2023,9,16022000,Online
+10,Tienda Manizales,4,Deportes,2023,10,17125000,Online
+10,Tienda Manizales,4,Deportes,2023,11,16417000,Telefono
+10,Tienda Manizales,4,Deportes,2023,12,19829000,Online
+10,Tienda Manizales,5,Belleza,2023,1,12278000,App
+10,Tienda Manizales,5,Belleza,2023,2,10818000,Telefono
+10,Tienda Manizales,5,Belleza,2023,3,12508000,Presencial
+10,Tienda Manizales,5,Belleza,2023,4,12907000,Online
+10,Tienda Manizales,5,Belleza,2023,5,14350000,App
+10,Tienda Manizales,5,Belleza,2023,6,13398000,Online
+10,Tienda Manizales,5,Belleza,2023,7,13111000,Online
+10,Tienda Manizales,5,Belleza,2023,8,12148000,App
+10,Tienda Manizales,5,Belleza,2023,9,12846000,App
+10,Tienda Manizales,5,Belleza,2023,10,14534000,Telefono
+10,Tienda Manizales,5,Belleza,2023,11,14381000,App
+10,Tienda Manizales,5,Belleza,2023,12,18026000,Online
+10,Tienda Manizales,6,Juguetes,2023,1,11075000,Online
+10,Tienda Manizales,6,Juguetes,2023,2,9691000,Online
+10,Tienda Manizales,6,Juguetes,2023,3,11676000,Telefono
+10,Tienda Manizales,6,Juguetes,2023,4,11058000,App
+10,Tienda Manizales,6,Juguetes,2023,5,12911000,Online
+10,Tienda Manizales,6,Juguetes,2023,6,11121000,Telefono
+10,Tienda Manizales,6,Juguetes,2023,7,12019000,App
+10,Tienda Manizales,6,Juguetes,2023,8,10633000,Online
+10,Tienda Manizales,6,Juguetes,2023,9,11609000,Online
+10,Tienda Manizales,6,Juguetes,2023,10,12361000,Presencial
+10,Tienda Manizales,6,Juguetes,2023,11,13496000,App
+10,Tienda Manizales,6,Juguetes,2023,12,15926000,Online
+10,Tienda Manizales,7,Alimentos,2023,1,27883000,Telefono
+10,Tienda Manizales,7,Alimentos,2023,2,25205000,Presencial
+10,Tienda Manizales,7,Alimentos,2023,3,28117000,App
+10,Tienda Manizales,7,Alimentos,2023,4,28939000,Online
+10,Tienda Manizales,7,Alimentos,2023,5,30199000,Online
+10,Tienda Manizales,7,Alimentos,2023,6,27046000,Online
+10,Tienda Manizales,7,Alimentos,2023,7,29130000,App
+10,Tienda Manizales,7,Alimentos,2023,8,24928000,App
+10,Tienda Manizales,7,Alimentos,2023,9,28531000,App
+10,Tienda Manizales,7,Alimentos,2023,10,29774000,Telefono
+10,Tienda Manizales,7,Alimentos,2023,11,31975000,Presencial
+10,Tienda Manizales,7,Alimentos,2023,12,34320000,Online
+10,Tienda Manizales,8,Libros,2023,1,9022000,Telefono
+10,Tienda Manizales,8,Libros,2023,2,7081000,Presencial
+10,Tienda Manizales,8,Libros,2023,3,8445000,App
+10,Tienda Manizales,8,Libros,2023,4,9457000,Telefono
+10,Tienda Manizales,8,Libros,2023,5,9929000,App
+10,Tienda Manizales,8,Libros,2023,6,8245000,Presencial
+10,Tienda Manizales,8,Libros,2023,7,8460000,Online
+10,Tienda Manizales,8,Libros,2023,8,8287000,App
+10,Tienda Manizales,8,Libros,2023,9,8748000,Online
+10,Tienda Manizales,8,Libros,2023,10,9011000,Presencial
+10,Tienda Manizales,8,Libros,2023,11,9653000,Telefono
+10,Tienda Manizales,8,Libros,2023,12,11286000,Presencial
+10,Tienda Manizales,9,Mascotas,2023,1,10737000,Online
+10,Tienda Manizales,9,Mascotas,2023,2,9488000,Telefono
+10,Tienda Manizales,9,Mascotas,2023,3,10790000,Online
+10,Tienda Manizales,9,Mascotas,2023,4,11479000,Telefono
+10,Tienda Manizales,9,Mascotas,2023,5,11966000,App
+10,Tienda Manizales,9,Mascotas,2023,6,11846000,App
+10,Tienda Manizales,9,Mascotas,2023,7,11109000,Telefono
+10,Tienda Manizales,9,Mascotas,2023,8,10076000,Presencial
+10,Tienda Manizales,9,Mascotas,2023,9,10566000,Telefono
+10,Tienda Manizales,9,Mascotas,2023,10,12296000,Online
+10,Tienda Manizales,9,Mascotas,2023,11,13450000,Online
+10,Tienda Manizales,9,Mascotas,2023,12,14910000,Online
+10,Tienda Manizales,10,Ferretería,2023,1,15412000,App
+10,Tienda Manizales,10,Ferretería,2023,2,14452000,Online
+10,Tienda Manizales,10,Ferretería,2023,3,15765000,Online
+10,Tienda Manizales,10,Ferretería,2023,4,15045000,App
+10,Tienda Manizales,10,Ferretería,2023,5,16354000,Online
+10,Tienda Manizales,10,Ferretería,2023,6,15712000,App
+10,Tienda Manizales,10,Ferretería,2023,7,15558000,Online
+10,Tienda Manizales,10,Ferretería,2023,8,14340000,Presencial
+10,Tienda Manizales,10,Ferretería,2023,9,16036000,Online
+10,Tienda Manizales,10,Ferretería,2023,10,16275000,Online
+10,Tienda Manizales,10,Ferretería,2023,11,17306000,Telefono
+10,Tienda Manizales,10,Ferretería,2023,12,21154000,App
