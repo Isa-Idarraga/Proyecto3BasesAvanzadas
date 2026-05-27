@@ -1,47 +1,62 @@
 USE DB_Proyecto3_OLTP;
 GO
 
--- ============================================================
--- INVENTARIO DIARIO (365 días x 200 productos x 10 tiendas)
--- ============================================================
-DECLARE @fecha     DATE = '2023-01-01';
-DECLARE @fechaFin  DATE = '2023-12-31';
-DECLARE @tienda    INT;
-DECLARE @producto  INT;
-DECLARE @stockAnt  INT;
-DECLARE @entradas  INT;
-DECLARE @salidas   INT;
-DECLARE @stockFin  INT;
-
-WHILE @fecha <= @fechaFin
-BEGIN
-    SET @tienda = 1;
-    WHILE @tienda <= 10
-    BEGIN
-        SET @producto = 1;
-        WHILE @producto <= 200
-        BEGIN
-            SET @entradas = (ABS(CHECKSUM(NEWID())) % 50);
-            SET @salidas  = (ABS(CHECKSUM(NEWID())) % 30);
-            SET @stockAnt = (ABS(CHECKSUM(NEWID())) % 200) + 10;
-            SET @stockFin = @stockAnt + @entradas - @salidas;
-            IF @stockFin < 0 SET @stockFin = 0;
-
-            INSERT INTO InventarioDiario
-                (ProductoID, TiendaID, FechaRegistro, StockInicial,
-                 Entradas, Salidas, StockFinal)
-            VALUES (
-                @producto, @tienda, @fecha, @stockAnt,
-                @entradas, @salidas, @stockFin
-            );
-
-            SET @producto += 1;
-        END;
-        SET @tienda += 1;
-    END;
-    SET @fecha = DATEADD(DAY, 1, @fecha);
-END;
+DELETE FROM InventarioDiario;
 GO
 
-PRINT 'InventarioDiario insertado correctamente (730.000 filas).';
+;WITH Fechas AS
+(
+    SELECT CAST('2023-01-01' AS DATE) AS FechaRegistro
+
+    UNION ALL
+
+    SELECT DATEADD(DAY,1,FechaRegistro)
+    FROM Fechas
+    WHERE FechaRegistro < '2023-12-31'
+)
+
+INSERT INTO InventarioDiario
+(
+    FechaRegistro,
+    ProductoID,
+    TiendaID,
+    StockInicial,
+    Entradas,
+    Salidas,
+    StockFinal
+)
+
+SELECT
+
+f.FechaRegistro,
+p.ProductoID,
+t.TiendaID,
+
+v.StockInicial,
+v.Entradas,
+v.Salidas,
+
+CASE
+    WHEN v.StockInicial + v.Entradas - v.Salidas < 0
+    THEN 0
+    ELSE v.StockInicial + v.Entradas - v.Salidas
+END
+
+FROM Fechas f
+CROSS JOIN Productos p
+CROSS JOIN Tiendas t
+
+CROSS APPLY
+(
+    SELECT
+        (ABS(CHECKSUM(NEWID())) % 200)+10 AS StockInicial,
+        (ABS(CHECKSUM(NEWID())) % 50) AS Entradas,
+        (ABS(CHECKSUM(NEWID())) % 30) AS Salidas
+) v
+
+OPTION(MAXRECURSION 366);
+
+GO
+
+PRINT 'InventarioDiario cargado';
 GO

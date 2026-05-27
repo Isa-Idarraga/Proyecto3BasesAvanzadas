@@ -74,3 +74,104 @@ GO
 
 PRINT 'STG_Clientes y STG_Productos cargados correctamente.';
 GO
+
+-- ============================================================
+-- CARGA STG_Ventas
+-- ============================================================
+
+TRUNCATE TABLE STG_Ventas;
+
+INSERT INTO STG_Ventas
+(
+VentaID,
+FechaVenta,
+ClienteID,
+ProductoID,
+TiendaID,
+VendedorID,
+Cantidad,
+PrecioUnitario,
+ValorNeto,
+MargenBruto,
+Anio,
+Mes
+)
+
+SELECT
+
+v.VentaID,
+v.FechaVenta,
+v.ClienteID,
+dv.ProductoID,
+v.TiendaID,
+v.VendedorID,
+dv.Cantidad,
+dv.PrecioUnitario,
+
+dv.Cantidad*dv.PrecioUnitario,
+
+(dv.Cantidad*dv.PrecioUnitario)
+-
+(dv.Cantidad*p.PrecioCompra),
+
+YEAR(v.FechaVenta),
+MONTH(v.FechaVenta)
+
+FROM DB_Proyecto3_OLTP.dbo.Ventas v
+INNER JOIN DB_Proyecto3_OLTP.dbo.DetalleVentas dv
+ON v.VentaID=dv.VentaID
+INNER JOIN DB_Proyecto3_OLTP.dbo.Productos p
+ON dv.ProductoID=p.ProductoID;
+
+
+-- ============================================================
+-- CARGA STG_Inventario
+-- ============================================================
+
+TRUNCATE TABLE STG_Inventario;
+
+INSERT INTO STG_Inventario
+
+SELECT *
+FROM DB_Proyecto3_OLTP.dbo.InventarioDiario;
+
+
+-- ============================================================
+-- CARGA STG_Compras
+-- ============================================================
+
+TRUNCATE TABLE STG_Compras;
+
+INSERT INTO STG_Compras
+
+SELECT *
+FROM DB_Proyecto3_OLTP.dbo.Compras;
+
+
+-- ============================================================
+-- CARGA STG_Devoluciones
+-- ============================================================
+
+TRUNCATE TABLE STG_Devoluciones;
+
+INSERT INTO STG_Devoluciones
+
+SELECT *
+FROM DB_Proyecto3_OLTP.dbo.Devoluciones;
+
+
+-- ============================================================
+-- CARGA STG_Metas
+-- ============================================================
+
+TRUNCATE TABLE STG_Metas;
+
+INSERT INTO STG_Metas
+
+SELECT *
+FROM DB_Proyecto3_OLTP.dbo.MetasComerciales;
+
+GO
+
+PRINT 'STAGING cargado completamente';
+GO
