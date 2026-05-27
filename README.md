@@ -22,6 +22,9 @@ OLTP (DB_Proyecto3_OLTP)
 Staging (BI_Staging)          ← también recibe fuentes externas (CSV)
         │
         ▼
+Transformación ETL
+        │
+        ▼
 Data Warehouse (dimensiones + hechos)
         │
         ▼
@@ -34,7 +37,7 @@ Power BI Dashboard
 
 ```
 Proyecto3BasesAvanzadas/
-├── 1_OLTP/                     Base de datos transaccional
+├── 1_OLTP/                          Base de datos transaccional
 │   ├── 01_crear_tablas_oltp.sql
 │   ├── 02_insert_datos_base.sql
 │   ├── 03_insert_ventas_detalle.sql
@@ -42,35 +45,56 @@ Proyecto3BasesAvanzadas/
 │   ├── 05_insert_compras_detalle.sql
 │   ├── 06_insert_devoluciones.sql
 │   └── 07_insert_metas_comerciales.sql
-├── 2_Staging/                  Capa intermedia de calidad
+├── 2_Staging/                       Capa intermedia de calidad
 │   ├── 01_crear_bi_staging.sql
 │   └── 02_cargar_transformar_staging.sql
-├── 3_DataWarehouse/            Modelo dimensional
+├── 3_DataWarehouse/                 Modelo dimensional
 │   ├── 01_crear_dimensiones.sql
 │   ├── 02_crear_hechos.sql
 │   └── 03_etl_log.sql
-├── 4_ETL/                      Carga incremental al DW
+├── 4_ETL/                           Carga al DW
 │   ├── 01_cargar_dim_fecha.sql
 │   ├── 02_cargar_dim_cliente.sql
 │   ├── 03_cargar_dim_producto.sql
-│   ├── 04_cargar_fact_ventas.sql
-│   ├── 05_cargar_fact_inventario.sql
-│   ├── 06_cargar_fact_metas.sql
-│   └── 07_validar_calidad_datos.sql
-├── 5_FuentesExternas/          Datos externos en CSV
+│   ├── 04_cargar_dimensiones_restantes.sql
+│   ├── 05_cargar_fact_ventas.sql
+│   ├── 06_cargar_fact_inventario.sql
+│   ├── 07_cargar_fact_metas.sql
+│   ├── 08_cargar_fact_compras.sql
+│   ├── 09_cargar_fact_devoluciones.sql
+│   ├── 10_cargar_fact_rentabilidad.sql
+│   └── 11_validar_calidad_datos.sql
+├── 5_FuentesExternas/               Datos externos en CSV
 │   ├── metas_mensuales_externo.csv
 │   └── inventario_fisico_ajustes.csv
 ├── 6_PowerBI/
 │   └── dashboard_proyecto3.pbix
-├── 7_Evidencias/               Capturas de ejecución
+├── 7_Evidencias/                    Capturas de ejecución
 │   ├── evidencia_01_oltp_conteos.png
 │   ├── evidencia_02_staging_calidad.png
 │   ├── evidencia_03_campos_derivados.png
 │   ├── evidencia_04_estandarizacion_ciudades.png
 │   └── evidencia_05_estructura_staging.png
-├── 8_Diagramas/
-└── 9_informe/
+├── docker-compose.yml
+└── README.md
 ```
+
+---
+
+## Configuración del entorno
+
+El proyecto incluye un `docker-compose.yml` para levantar SQL Server 2022 localmente:
+
+```bash
+# Crear un archivo .env con las variables requeridas
+ACCEPT_EULA=Y
+SA_PASSWORD=<tu_contraseña>
+
+# Levantar el contenedor
+docker compose up -d
+```
+
+El servidor queda disponible en `localhost:1433` con el usuario `sa`. Los datos se persisten en el volumen `sql_data`.
 
 ---
 
@@ -96,12 +120,30 @@ Motor: **SQL Server**. Contiene 13 tablas que modelan las operaciones diarias de
 
 Todos los estados siguen restricciones `CHECK` con valores fijos (ej. `'A'/'I'` para activo/inactivo).
 
+### 1.1 Optimización de InventarioDiario
+
+El proceso original usaba ciclos `WHILE` anidados para generar los ~730 000 registros diarios (365 días × 200 productos × 10 tiendas), con tiempos de ejecución muy elevados.
+
+Se reemplazó por una estrategia de operaciones de conjuntos usando:
+
+- Common Table Expressions (CTE)
+- `CROSS JOIN`
+- `CROSS APPLY`
+
+Resultado: reducción significativa del tiempo de ejecución, mejor escalabilidad y menor consumo de recursos.
+
+### 1.2 Corrección de Compras y DetalleCompras
+
+Se identificaron conflictos de claves foráneas por generación aleatoria de identificadores inexistentes. Se corrigió filtrando únicamente sobre IDs válidos de proveedores, productos y tiendas existentes.
+
+```
+Compras:        2 000 registros
+DetalleCompras: 6 036 registros
+```
+
 **Script de ejecución (orden):**
 ```sql
--- 1. Crear tablas
 01_crear_tablas_oltp.sql
-
--- 2. Poblar datos maestros y transaccionales
 02_insert_datos_base.sql
 03_insert_ventas_detalle.sql
 04_insert_inventario_diario.sql
@@ -114,7 +156,7 @@ Todos los estados siguen restricciones `CHECK` con valores fijos (ej. `'A'/'I'` 
 
 ## 2. Staging — `BI_Staging`
 
-Zona intermedia de limpieza y validación de calidad de datos. Replica las entidades del OLTP con campos de control adicionales en cada tabla:
+Zona intermedia de limpieza y validación. Replica las entidades del OLTP con campos de control adicionales:
 
 | Campo | Tipo | Propósito |
 |---|---|---|
@@ -129,6 +171,24 @@ Zona intermedia de limpieza y validación de calidad de datos. Replica las entid
 - `ValorNeto` = `Cantidad × (PrecioUnitario − Descuento)`
 - `MargenBruto` = `ValorNeto − Cantidad × CostoUnitario`
 
+### Transformaciones por entidad
+
+**Clientes**
+- Eliminación de espacios innecesarios
+- Estandarización de nombres de ciudades
+- Conversión de correos a minúsculas
+- Validación de formato de correo electrónico
+- Detección de valores nulos
+
+**Productos**
+- Validación de precios positivos
+- Validación de categorías existentes
+- Verificación de relación costo–venta (costo < precio venta)
+- Estandarización de nombres
+
+**Ventas e Inventario**
+- Adición de atributos derivados: `Año`, `Mes`, `Día`
+
 **Script de ejecución (orden):**
 ```sql
 01_crear_bi_staging.sql
@@ -139,27 +199,58 @@ Zona intermedia de limpieza y validación de calidad de datos. Replica las entid
 
 ## 3. Data Warehouse
 
-Modelo dimensional con estructura estrella. Los scripts definen:
+Modelo dimensional con estructura estrella. Los scripts definen las dimensiones, tablas de hechos y la tabla de auditoría ETL.
 
-- **`01_crear_dimensiones.sql`** — `Dim_Fecha`, `Dim_Cliente`, `Dim_Producto` (y posiblemente `Dim_Tienda`, `Dim_Vendedor`)
-- **`02_crear_hechos.sql`** — `Fact_Ventas`, `Fact_Inventario`, `Fact_Metas`
-- **`03_etl_log.sql`** — Tabla de auditoría del proceso ETL
+### 3.1 Dimensiones
+
+| Dimensión | Atributos principales | Registros |
+|---|---|---|
+| `DimFecha` | FechaKey, Fecha, Día, Mes, NombreMes, Trimestre, Año | 365 |
+| `DimCliente` | Cliente, Ciudad, Departamento | 1 000 |
+| `DimProducto` | Producto, Categoría, PrecioCompra, PrecioVenta | 200 |
+| `DimTienda` | — | 10 |
+| `DimVendedor` | Vendedores reales + registro "Sin asignar" | 21 |
+| `DimProveedor` | — | 10 |
+| `DimCanalVenta` | App, Online, Presencial, Teléfono | 4 |
+| `DimCategoria` | — | 10 |
+
+### 3.2 Tablas de hechos
+
+| Hecho | Granularidad | Métricas | Registros |
+|---|---|---|---|
+| `FactVentas` | 1 fila = una línea de venta por producto | Cantidad, PrecioUnitario, SubTotal, TotalVenta | 125 366 |
+| `FactInventarioDiario` | Inventario diario por producto y tienda | StockInicial, Entradas, Salidas, StockFinal | 730 000 |
+| `FactMetasComerciales` | Meta por fecha, tienda, categoría, canal y vendedor | ValorMeta | 1 440 |
+| `FactCompras` | Línea de compra | — | 2 000 |
+| `FactDevoluciones` | Devolución por venta | — | 1 500 |
+| `FactRentabilidad` | Por línea de venta | Ingresos, Costos, Utilidad | 125 366 |
+
+**Script de ejecución (orden):**
+```sql
+01_crear_dimensiones.sql
+02_crear_hechos.sql
+03_etl_log.sql
+```
 
 ---
 
 ## 4. ETL
 
-Siete scripts que cargan y validan el DW desde staging:
+Once scripts que extraen desde staging, resuelven claves sustitutas y cargan el Data Warehouse:
 
 | Script | Acción |
 |---|---|
 | `01_cargar_dim_fecha.sql` | Popula la dimensión de tiempo |
 | `02_cargar_dim_cliente.sql` | Carga y deduplica clientes |
 | `03_cargar_dim_producto.sql` | Carga productos con categoría |
-| `04_cargar_fact_ventas.sql` | Inserta hechos de ventas |
-| `05_cargar_fact_inventario.sql` | Inserta hechos de inventario |
-| `06_cargar_fact_metas.sql` | Carga metas (OLTP + fuente externa) |
-| `07_validar_calidad_datos.sql` | Validaciones post-carga |
+| `04_cargar_dimensiones_restantes.sql` | Carga DimTienda, DimVendedor, DimProveedor, DimCanalVenta, DimCategoria |
+| `05_cargar_fact_ventas.sql` | Inserta hechos de ventas con resolución de surrogate keys |
+| `06_cargar_fact_inventario.sql` | Inserta hechos de inventario diario |
+| `07_cargar_fact_metas.sql` | Carga metas (OLTP + fuente externa CSV) |
+| `08_cargar_fact_compras.sql` | Inserta hechos de compras |
+| `09_cargar_fact_devoluciones.sql` | Inserta hechos de devoluciones |
+| `10_cargar_fact_rentabilidad.sql` | Calcula y carga métricas de rentabilidad |
+| `11_validar_calidad_datos.sql` | Validaciones post-carga (conteos, nulos, métricas) |
 
 ---
 
@@ -169,8 +260,10 @@ Archivos CSV que complementan los datos del OLTP:
 
 | Archivo | Contenido |
 |---|---|
-| `metas_mensuales_externo.csv` | ~1 200 registros de metas por tienda, categoría, mes y canal de venta (2023-2024) |
+| `metas_mensuales_externo.csv` | ~1 200 registros de metas por tienda, categoría, mes y canal de venta (2023–2024) |
 | `inventario_fisico_ajustes.csv` | Ajustes de inventario provenientes de conteos físicos (mermas, ajustes positivos) con responsable y motivo |
+
+Se importan al staging antes de ejecutar los scripts ETL.
 
 ---
 
@@ -181,6 +274,35 @@ El archivo `dashboard_proyecto3.pbix` conecta al Data Warehouse y presenta métr
 - Evolución de inventario y alertas de stock
 - Análisis de devoluciones
 - Cumplimiento de metas comerciales por vendedor
+- Rentabilidad por producto y categoría
+
+---
+
+## 7. Validación y control de calidad
+
+El script `11_validar_calidad_datos.sql` verifica automáticamente conteos, nulos, integridad referencial y métricas de rentabilidad. Resultados esperados:
+
+**Dimensiones**
+| Tabla | Registros |
+|---|---|
+| DimFecha | 365 |
+| DimCliente | 1 000 |
+| DimProducto | 200 |
+| DimTienda | 10 |
+| DimVendedor | 21 |
+| DimProveedor | 10 |
+| DimCanalVenta | 4 |
+| DimCategoria | 10 |
+
+**Hechos**
+| Tabla | Registros |
+|---|---|
+| FactVentas | 125 366 |
+| FactInventarioDiario | 730 000 |
+| FactMetasComerciales | 1 440 |
+| FactCompras | 2 000 |
+| FactDevoluciones | 1 500 |
+| FactRentabilidad | 125 366 |
 
 ---
 
@@ -188,8 +310,9 @@ El archivo `dashboard_proyecto3.pbix` conecta al Data Warehouse y presenta métr
 
 | Herramienta | Uso |
 |---|---|
-| SQL Server | Motor de bases de datos (OLTP, Staging, DW) |
+| SQL Server 2022 | Motor de bases de datos (OLTP, Staging, DW) |
 | T-SQL | Scripts DDL y DML |
+| Docker | Contenedor SQL Server para desarrollo local |
 | Power BI | Visualización y dashboard |
 | CSV | Fuentes externas de datos |
 
@@ -198,25 +321,29 @@ El archivo `dashboard_proyecto3.pbix` conecta al Data Warehouse y presenta métr
 ## Orden de ejecución completo
 
 ```
-1. 1_OLTP/01_crear_tablas_oltp.sql
-2. 1_OLTP/02_insert_datos_base.sql
-3. 1_OLTP/03_insert_ventas_detalle.sql
-4. 1_OLTP/04_insert_inventario_diario.sql
-5. 1_OLTP/05_insert_compras_detalle.sql
-6. 1_OLTP/06_insert_devoluciones.sql
-7. 1_OLTP/07_insert_metas_comerciales.sql
-8. 2_Staging/01_crear_bi_staging.sql
-9. 2_Staging/02_cargar_transformar_staging.sql
-   (importar CSVs de 5_FuentesExternas/ al staging)
+1.  1_OLTP/01_crear_tablas_oltp.sql
+2.  1_OLTP/02_insert_datos_base.sql
+3.  1_OLTP/03_insert_ventas_detalle.sql
+4.  1_OLTP/04_insert_inventario_diario.sql
+5.  1_OLTP/05_insert_compras_detalle.sql
+6.  1_OLTP/06_insert_devoluciones.sql
+7.  1_OLTP/07_insert_metas_comerciales.sql
+8.  2_Staging/01_crear_bi_staging.sql
+9.  2_Staging/02_cargar_transformar_staging.sql
+    (importar CSVs de 5_FuentesExternas/ al staging)
 10. 3_DataWarehouse/01_crear_dimensiones.sql
 11. 3_DataWarehouse/02_crear_hechos.sql
 12. 3_DataWarehouse/03_etl_log.sql
 13. 4_ETL/01_cargar_dim_fecha.sql
 14. 4_ETL/02_cargar_dim_cliente.sql
 15. 4_ETL/03_cargar_dim_producto.sql
-16. 4_ETL/04_cargar_fact_ventas.sql
-17. 4_ETL/05_cargar_fact_inventario.sql
-18. 4_ETL/06_cargar_fact_metas.sql
-19. 4_ETL/07_validar_calidad_datos.sql
-20. Abrir 6_PowerBI/dashboard_proyecto3.pbix
+16. 4_ETL/04_cargar_dimensiones_restantes.sql
+17. 4_ETL/05_cargar_fact_ventas.sql
+18. 4_ETL/06_cargar_fact_inventario.sql
+19. 4_ETL/07_cargar_fact_metas.sql
+20. 4_ETL/08_cargar_fact_compras.sql
+21. 4_ETL/09_cargar_fact_devoluciones.sql
+22. 4_ETL/10_cargar_fact_rentabilidad.sql
+23. 4_ETL/11_validar_calidad_datos.sql
+24. Abrir 6_PowerBI/dashboard_proyecto3.pbix
 ```
